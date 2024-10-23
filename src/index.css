@@ -20,16 +20,17 @@
   align-items: center;
   justify-content: center;
   background-color:rgb(251, 235, 246);;
-  padding: 6px 20px;
+  padding: 5px;
+  flex-shrink: 1;
 }
 
 .nav-buttons {
   height: 45px;
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 20px;
   
 }
 
