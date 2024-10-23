@@ -26,6 +26,7 @@
 
 .nav-buttons {
   height: 45px;
+  justify-content: center;
   display: flex;
   align-items: center;
   width: 100%;
@@ -37,7 +38,7 @@
 #nav-name {
   display: flex;
   color: black;
-  flex-grow: 1;
+  flex-grow: 0.9;
   padding: 10px;
   text-decoration: none;
   font-weight: 800;
