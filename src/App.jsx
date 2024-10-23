@@ -10,9 +10,12 @@ function App() {
     <div className="container">
       <nav className="navigation-bar">
         <div className="nav-buttons">
-          <a href="#header" id="nav-name">
-            Zainab Choudhry
-          </a>
+            <a href="#header" id="nav-name">
+              Zainab Choudhry
+            </a>
+            <a href="#header" id="nav-initials">
+              ZC
+            </a>
           <a className="nav-links" href="#about-section">
             About
           </a>
