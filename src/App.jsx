@@ -7,8 +7,6 @@ import NavBar from "./Nav-Bar/NavBar";
 import 'aos/dist/aos.css'; 
 import AOS from 'aos'; 
 
-
-
 function App() {
   const [headerText, setHeaderText] = useState(
     "Hey, I'm Zainab. I'm a Software Developer"
@@ -31,10 +29,10 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 500, // Animation duration
-      offset: 250, // Start animation after scrolling 200px
-      easing: "ease-in-out", // Easing function
-      once: false, // Animation should happen only once
+      duration: 500,
+      offset: 250,
+      easing: "ease-in-out", 
+      once: false, 
       disable: "mobile",
     });
   }, []);
