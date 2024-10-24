@@ -33,13 +33,13 @@ main {
   align-items: center;
   background-color: rgb(251, 235, 246);
   padding-bottom: 30px;
-  flex-shrink: 1;
  
 }
 
 .title {
   text-align: center;
   /* max-width: 1030px; */
+  flex-shrink: 1;
 }
 
 .title-section h1 {
