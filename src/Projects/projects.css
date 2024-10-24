@@ -1,0 +1,59 @@
+
+.projects-section {
+  scroll-margin-top: 100px;
+  text-align: center;
+  padding: 60px 0px 60px 0px;
+}
+
+.projects-section p,
+.skills-section p,
+.contact-section p {
+  padding-top: 10px;
+}
+
+.project-links {
+  display: flex; /* Change to flexbox */
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  gap: 60px; /* Space between items */
+  justify-content: center; /* Centers items horizontally */
+  padding: 20px; /* Optional: adds some padding around the items */
+  max-width: 1700px;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.project-container {
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  padding: 15px;
+  border-radius: 40px;
+  transition: margin-top 0.5s;
+  flex: 0 1 350px; /* Allows items to be the width of 350px and wrap properly */
+}
+
+.project-container:hover {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
+  border: 2px solid lightgray;
+  border-radius: 30px;
+}
+
+.project-text {
+  padding: 20px;
+  text-align: start;
+}
+
+.project-text p,
+.skill-card p {
+  font-size: 1rem;
+  color: gray;
+}

@@ -1,6 +1,8 @@
+import './aboutMe.css';
+
 export default function AboutMe() {
   return (
-    <section className="about-section" id="about-section">
+    <section className="about-section" id="about-section" data-aos="fade-up">
       <div className="about-elements">
       <div className="about-me-text">
         <h2>About Me</h2>

@@ -1,0 +1,28 @@
+
+.skills-section {
+  scroll-margin-top: 100px;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.skill-card {
+  height: auto;
+  width: 300px;
+  border-radius: 30px;
+  flex: 0 1 300px; /* Allows items to be the width of 350px and wrap properly */
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.skill-card svg {
+  width: 60%;
+}

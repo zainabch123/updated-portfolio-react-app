@@ -1,0 +1,43 @@
+
+.about-section {
+   scroll-margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 60px 0px 60px 0px;
+}
+
+.about-elements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 600px));
+  justify-content: center;
+  justify-items: center;
+}
+
+.about-me-text {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.about-me-text h2,
+.projects-section h2,
+.skills-section h2,
+.contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.about-me-text p {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.about-me-image {
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 40px;
+  align-content: center;
+  text-align: center;
+}

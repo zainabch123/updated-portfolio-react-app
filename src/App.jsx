@@ -1,28 +1,43 @@
-import { useState, useEffect } from "react";
-import AboutMe from "./AboutMe";
-import Contact from "./Contact";
-import Header from "./Header";
-import MyProjects from "./MyProjects";
-import Skills from "./Skills";
-import NavBar from "./NavBar";
+import { useState, useEffect, useRef } from "react";
+import AboutMe from "./AboutMe/AboutMe";
+import Contact from "./Contact/Contact";
+import MyProjects from "./Projects/MyProjects";
+import Skills from "./Skills/Skills";
+import NavBar from "./Nav-Bar/NavBar";
+import 'aos/dist/aos.css'; 
+import AOS from 'aos'; 
+
+
 
 function App() {
-    const [headerText, setHeaderText] = useState("Hey, I'm Zainab. I'm a Software Developer");
-    const [displayedText, setDisplayedText] = useState("");
-    const [index, setIndex] = useState(0);
+  const [headerText, setHeaderText] = useState(
+    "Hey, I'm Zainab. I'm a Software Developer"
+  );
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
 
-    useEffect(() => {
-      const typingInterval = setInterval(() => {
-        if (index < headerText.length) {
-          setDisplayedText(
-            (currentText) => currentText + headerText.charAt(index)
-          );
-          setIndex(index + 1);
-        }
-      }, 100);
+  // useEffect(() => {
+  //   const typingInterval = setInterval(() => {
+  //     if (index < headerText.length) {
+  //       setDisplayedText(
+  //         (currentText) => currentText + headerText.charAt(index)
+  //       );
+  //       setIndex(index + 1);
+  //     }
+  //   }, 100);
 
-      return () => clearInterval(typingInterval);
-    }, [index]); 
+  //   return () => clearInterval(typingInterval);
+  // }, [index]);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 500, // Animation duration
+      offset: 250, // Start animation after scrolling 200px
+      easing: "ease-in-out", // Easing function
+      once: false, // Animation should happen only once
+      disable: "mobile",
+    });
+  }, []);
 
   return (
     <div className="container">
