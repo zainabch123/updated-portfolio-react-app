@@ -19,8 +19,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color:rgb(251, 235, 246);;
-  padding: 5px;
+  background-color: rgb(251, 235, 246);
+  padding: 10px 0px;
   flex-shrink: 1;
 }
 
@@ -32,7 +32,6 @@
   width: 100%;
   border-radius: 30px;
   padding: 20px;
-  
 }
 
 #nav-name {
@@ -65,7 +64,7 @@
   padding-top: 0px;
 }
 
-@media (max-width: 590px) {
+@media (max-width: 580px) {
   #nav-name {
     display: none;
   }
@@ -74,19 +73,19 @@
     display: flex;
     flex-grow: 1;
     color: black;
-  padding: 10px;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 1.2rem;
-  flex-shrink: 1;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.2rem;
+    flex-shrink: 1;
   }
 }
 
 main {
   flex: 1;
-  display: flex; 
-  flex-direction: column; 
-  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
@@ -97,23 +96,29 @@ main {
 }
 
 .title-section {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  height: 500px;
-  width: 100%; 
-  background-color: rgb(251, 235, 246);;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(251, 235, 246);
+
 }
 
+.title {
+ text-align: center;
+ /* max-width: 1030px; */
+}
 
 .title-section h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 800;
   padding: 10px;
+  padding-left: 0px;
 }
 
-.title-section p, .projects-section p,
+.title-section p,
+.projects-section p,
 .skills-section p,
 .contact-section p {
   font-size: 1.2rem;
@@ -131,7 +136,79 @@ main {
   color: white;
 }
 
+.cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite; /* Blinking effect */
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0; /* Hide cursor halfway */
+  }
+}
+
+.first-line, .second-line, .title p, .title button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.first-line {
+  animation-delay: 0.5s;
+}
+
+.second-line {
+  animation-delay: 1.2s;
+  position: relative;
+}
+
+.title p {
+  animation-delay: 1.9s;
+}
+
+.title button {
+  animation-delay: 2.5s;
+}
+
+.text-underline {
+  position: absolute;
+  height: 10px;
+  width: 450px;
+  background-color: black;
+  left: 240px;
+  bottom: 10px;
+  opacity: 0;
+  transform: translateX(20px);
+  animation: fadeInRight 1s ease-out forwards;
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+   0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
 .about-section {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   justify-items: center;
   padding: 60px 0px 60px 0px;
@@ -170,7 +247,6 @@ main {
   align-content: center;
   text-align: center;
 }
-
 
 .projects-section {
   text-align: center;
@@ -295,29 +371,30 @@ main {
   color: rgb(110, 108, 108);
 }
 
-
 @font-face {
   font-family: "Geist";
   src: local("GeistRegular"),
-    url("./fonts/Geist-Regular.ttf") format("truetype");
+    url("./fonts/Geist/Geist-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Geist";
-  src: local("GeistBold"), url("./fonts/Geist-Bold.ttf") format("truetype");
-  font-weight: 1000;
+  src: local("GeistSemiBold"),
+    url("./fonts/Geist/Geist-SemiBold.ttf") format("truetype");
+  font-weight: 800;
 }
 
 @font-face {
   font-family: "Geist";
-  src: local("GeistMedium"), url("./fonts/Geist-Medium.ttf") format("truetype");
+  src: local("GeistMedium"),
+    url("./fonts/Geist/Geist-Medium.ttf") format("truetype");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "Geist";
-  src: local("GeistSemiBold"),
-    url("./fonts/Geist-SemiBold.ttf") format("truetype");
-  font-weight: 800;
+  font-family: "Poppins";
+  src: local("GeistRegular"),
+    url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
