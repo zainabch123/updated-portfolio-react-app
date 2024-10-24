@@ -45,7 +45,6 @@ main {
   font-size: 6rem;
   font-weight: 800;
   padding: 10px;
-  margin: 80px;
   padding-left: 0px;
 }
 
@@ -135,6 +134,17 @@ main {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 580px) {
+  .title-section {
+    flex: 0 0 50vh; /* Reduce height */
+  }
+  
+  .title-section h1 {
+    font-size: 5rem; /* Reduce font size */
   }
 }
 
