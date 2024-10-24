@@ -5,7 +5,6 @@ export default function MyProjects() {
     <section
       className="projects-section"
       id="projects-section"
-      data-aos="fade-up"
     >
       <h2>My Projects</h2>
       <p>Check out some of the projects I'm working on.</p>

@@ -27,15 +27,15 @@ function App() {
   //   return () => clearInterval(typingInterval);
   // }, [index]);
 
-  useEffect(() => {
-    AOS.init({
-      duration: 500,
-      offset: 250,
-      easing: "ease-in-out", 
-      once: false, 
-      disable: "mobile",
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 500,
+  //     offset: 250,
+  //     easing: "ease-in-out", 
+  //     once: false, 
+  //     disable: "mobile",
+  //   });
+  // }, []);
 
   return (
     <div className="container">

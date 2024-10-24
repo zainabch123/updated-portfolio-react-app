@@ -42,7 +42,7 @@
   flex-shrink: 0;
 }
 .nav-links:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   padding-top: 0px;
 }
 
