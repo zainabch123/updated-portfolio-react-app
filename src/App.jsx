@@ -32,8 +32,7 @@ function App() {
       duration: 500,
       offset: 250,
       easing: "ease-in-out", 
-      once: false, 
-      disable: "mobile",
+      once: false,
     });
   }, []);
 
