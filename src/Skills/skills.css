@@ -15,9 +15,9 @@
 
 .skill-card {
   height: auto;
-  width: 300px;
+  width: 250px;
   border-radius: 30px;
-  flex: 0 1 300px; /* Allows items to be the width of 350px and wrap properly */
+  flex: 0 1 250px; /* Allows items to be the width of 350px and wrap properly */
   display: grid;
   grid-template-rows: auto 1fr;
 }

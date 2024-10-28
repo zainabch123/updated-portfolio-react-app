@@ -50,8 +50,8 @@ main {
 
 .title-section button {
   margin-top: 20px;
-  padding: 7px;
-  border-radius: 15px;
+  padding: 10px;
+  border-radius: 30px;
   border: 1px solid black;
 }
 
@@ -84,17 +84,17 @@ main {
   animation-delay: 0.5s;
 }
 
-.second-line {
-  animation-delay: 1.2s;
+/* .second-line {
+  animation-delay: 1.s;
   position: relative;
-}
+} */
 
 .title p {
-  animation-delay: 1.9s;
+  animation-delay: 1s;
 }
 
 .title button {
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }
 
 .text-underline {

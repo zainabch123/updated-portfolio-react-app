@@ -1,7 +1,9 @@
 
 .projects-section {
   text-align: center;
-  padding: 60px 0px 60px 0px;
+  margin: 60px 0px 60px 0px;
+    position: relative;
+
 }
 
 .projects-section p,
@@ -11,18 +13,19 @@
 }
 
 .project-links {
-  display: flex; /* Change to flexbox */
-  flex-wrap: wrap; /* Allows items to wrap to the next line */
-  gap: 60px; /* Space between items */
-  justify-content: center; /* Centers items horizontally */
-  padding: 20px; /* Optional: adds some padding around the items */
+  display: flex; 
+  flex-wrap: nowrap; 
+  gap: 60px; 
+  justify-content: flex-start; 
+  align-items: center;
+  padding: 20px; 
   max-width: 1700px;
-  justify-items: center;
   margin: 0 auto;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
 }
 
 .project-container {
-  height: 350px;
   width: 350px;
   border: 2px solid black;
   margin-top: 40px;
@@ -31,7 +34,7 @@
   padding: 15px;
   border-radius: 40px;
   transition: margin-top 0.5s;
-  flex: 0 1 350px; /* Allows items to be the width of 350px and wrap properly */
+  flex: 0 0 auto;
 }
 
 .project-container:hover {
@@ -55,4 +58,14 @@
 .skill-card p {
   font-size: 1rem;
   color: gray;
+}
+
+.scroll-button {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+}
+
+#right-button {
+  right: 0px
 }

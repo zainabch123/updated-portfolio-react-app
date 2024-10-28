@@ -14,29 +14,6 @@ function App() {
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
-  // useEffect(() => {
-  //   const typingInterval = setInterval(() => {
-  //     if (index < headerText.length) {
-  //       setDisplayedText(
-  //         (currentText) => currentText + headerText.charAt(index)
-  //       );
-  //       setIndex(index + 1);
-  //     }
-  //   }, 100);
-
-  //   return () => clearInterval(typingInterval);
-  // }, [index]);
-
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 500,
-  //     offset: 250,
-  //     easing: "ease-in-out", 
-  //     once: false, 
-  //     disable: "mobile",
-  //   });
-  // }, []);
-
   return (
     <div className="container">
       <NavBar />
