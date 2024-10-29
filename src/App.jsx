@@ -4,8 +4,6 @@ import Contact from "./Contact/Contact";
 import MyProjects from "./Projects/MyProjects";
 import Skills from "./Skills/Skills";
 import NavBar from "./Nav-Bar/NavBar";
-import 'aos/dist/aos.css'; 
-import AOS from 'aos'; 
 
 function App() {
   const [headerText, setHeaderText] = useState(
