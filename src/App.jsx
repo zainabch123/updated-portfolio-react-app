@@ -6,12 +6,6 @@ import Skills from "./Skills/Skills";
 import NavBar from "./Nav-Bar/NavBar";
 
 function App() {
-  const [headerText, setHeaderText] = useState(
-    "Hey, I'm Zainab. I'm a Software Developer"
-  );
-  const [displayedText, setDisplayedText] = useState("");
-  const [index, setIndex] = useState(0);
-
   return (
     <div className="container">
       <NavBar />

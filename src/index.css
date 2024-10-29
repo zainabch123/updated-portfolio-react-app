@@ -52,7 +52,8 @@ main {
   margin-top: 20px;
   padding: 10px;
   border-radius: 30px;
-  border: 1px solid black;
+  border: 1px solid rgb(155, 152, 152);
+  cursor: pointer;
 }
 
 .title-section button:hover {
@@ -111,11 +112,15 @@ main {
 }
 
 .title-section p,
-.projects-section p,
 .skills-section p,
 .contact-section p {
   font-size: 1.2rem;
   padding-bottom: 10px;
+}
+
+.skills-section p,
+.contact-section p {
+  padding-top: 10px;
 }
 
 
