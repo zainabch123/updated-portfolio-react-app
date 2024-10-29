@@ -25,7 +25,7 @@ export default function Contact() {
           placeholder="Message"
           name="Message"
         ></textarea>
-        <input id="submit-button" type="submit" value="Submit" />
+        <button id="submit-button" type="submit">Submit</button>
         <div
           style={{
             textIndent: "-99999px",

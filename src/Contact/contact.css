@@ -18,12 +18,16 @@
 }
 
 .contact-section input,
-.contact-section textarea {
+.contact-section textarea, .contact-section button {
   height: 40px;
   border-radius: 5px;
   padding: 10px;
   font-size: 1rem;
   border: 1px solid grey;
+}
+
+.contact-section button {
+  cursor: pointer;
 }
 
 #message {
