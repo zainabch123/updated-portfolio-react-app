@@ -21,15 +21,7 @@ function App() {
         <div className="overflow-container">
           <section className="title-section">
             <div className="title">
-              {/* <h1>
-                <span id="typed-text">{displayedText}</span>
-                <span className="cursor">|</span>
-              </h1> */}
               <h1 className="first-line">Welcome to my Portfolio.</h1>
-              {/* <h1 className="second-line">
-                I'm a <span>Full Stack</span> Developer
-                <div className="text-underline"></div>
-              </h1> */}
               <p>Explore my latest projects and learn more about me.</p>
               <a href="#about-section">
                 <button>Learn More</button>
