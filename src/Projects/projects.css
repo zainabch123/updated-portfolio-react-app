@@ -28,7 +28,7 @@
   display: grid;
   grid-template-rows: 2fr 1fr;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 30px;
   transition: margin-top 0.5s;
   flex: 0 0 auto;
   cursor: pointer;
@@ -51,7 +51,7 @@
   height: 100%;
   object-fit: cover;
   object-position: left top;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .project-text {
