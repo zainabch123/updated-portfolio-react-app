@@ -22,7 +22,7 @@ export default function AboutMe() {
             Now a full-stack developer with over 900 hours of training in modern,
             industry-relevant tech, coupled with my developed interpersonal,
             critical thinking, and team building skills from my time in
-            teaching, I am now eager to kickstart a career in Software
+            teaching, I am eager to kickstart a career in Software
             Development.
           </p>
         </div>

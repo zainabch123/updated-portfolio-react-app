@@ -23,8 +23,7 @@
 
 .project-container {
   width: 350px;
-  height: 350px;
-  border: 1px solid black;
+  height: 360px;
   margin-top: 40px;
   display: grid;
   grid-template-rows: 2fr 1fr;
@@ -33,6 +32,8 @@
   transition: margin-top 0.5s;
   flex: 0 0 auto;
   cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
 }
 
 .project-container:hover {

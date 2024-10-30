@@ -52,7 +52,9 @@ main {
   margin-top: 20px;
   padding: 10px;
   border-radius: 30px;
-  border: 1px solid rgb(155, 152, 152);
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+
   cursor: pointer;
 }
 

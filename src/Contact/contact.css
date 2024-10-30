@@ -18,13 +18,25 @@
 }
 
 .contact-section input,
-.contact-section textarea, .contact-section button {
+.contact-section textarea {
   height: 40px;
-  border-radius: 5px;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.contact-section button {
+   height: 40px;
+  border-radius: 20px;
   padding: 10px;
   font-size: 1rem;
-  border: 1px solid grey;
+  border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
 
 .contact-section button {
   cursor: pointer;
@@ -32,4 +44,9 @@
 
 #message {
   height: 140px;
+}
+
+.contact-section button:hover {
+  background-color: black;
+  color: white;
 }
