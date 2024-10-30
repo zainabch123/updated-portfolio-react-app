@@ -23,7 +23,7 @@ export default function MyProjects() {
   return (
     <section className="projects-section" id="projects-section">
       <h2>My Projects</h2>
-      <p>Check out some of the projects I'm working on.</p>
+      <p className="projects-tag-line">Check out some of the projects I'm working on.</p>
       <section className="project-links" ref={navRef}>
         {/* <button
           className="scroll-button"

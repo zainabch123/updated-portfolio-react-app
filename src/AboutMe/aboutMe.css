@@ -8,9 +8,10 @@
 
 .about-elements {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 600px));
+  grid-template-columns: repeat(auto-fit, minmax(auto, 700px));
   justify-content: center;
   justify-items: center;
+  align-items: center;
 }
 
 .about-me-text {
@@ -35,8 +36,15 @@
 .about-me-image {
   height: 350px;
   width: 350px;
-  border: 2px solid black;
   border-radius: 40px;
   align-content: center;
   text-align: center;
+}
+
+.about-me-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  object-fit: cover;
+  object-position: center;
 }

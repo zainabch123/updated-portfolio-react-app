@@ -85,10 +85,6 @@ main {
   animation-delay: 0.5s;
 }
 
-/* .second-line {
-  animation-delay: 1.s;
-  position: relative;
-} */
 
 .title p {
   animation-delay: 1s;
@@ -112,6 +108,7 @@ main {
 }
 
 .title-section p,
+.projects-tag-line,
 .skills-section p,
 .contact-section p {
   font-size: 1.2rem;
@@ -121,6 +118,10 @@ main {
 .skills-section p,
 .contact-section p {
   padding-top: 10px;
+}
+
+p {
+  font-family: "Open Sans";
 }
 
 
@@ -178,8 +179,24 @@ main {
 
 @font-face {
   font-family: "Poppins";
-  src: local("GeistRegular"),
+  src: local("PoppinsRegular"),
     url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
 }
+
+@font-face {
+  font-family: "Lora";
+  src: local("LoraRegular"),
+    url("./fonts/Lora/static/Lora-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("OpenSansRegular"),
+    url("./fonts/Open_Sans/static/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+
 
