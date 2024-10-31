@@ -54,7 +54,7 @@ export default function MyProjects() {
             <div className="project-text">
               <h3>Cohort Manager App</h3>
               <p>
-                A social media app built as part of a 2-week team development simulation which allows students and teachers to interact with their cohort.
+                A social media app built as part of a 2-week team development simulation. I worked on both the frontend and backend for this project.
               </p>
             </div>
           </div>

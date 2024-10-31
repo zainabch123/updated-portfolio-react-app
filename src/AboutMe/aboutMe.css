@@ -8,7 +8,7 @@
 
 .about-elements {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 660px));
+  grid-template-columns: repeat(auto-fit, minmax(auto, 740px));
   justify-content: center;
   justify-items: center;
   align-items: center;
