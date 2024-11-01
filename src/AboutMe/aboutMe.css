@@ -21,7 +21,7 @@
   min-height: 450px; 
   padding: 35px;
   border-radius: 12px;
-  flex: 0 0 auto; 
+   flex: 1 1 300px;
 }
 
 .about-me-text h2,
