@@ -8,17 +8,23 @@
 
 .about-elements {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 740px));
+  grid-template-columns: repeat(auto-fit, minmax(auto, 470px));
   justify-content: center;
   justify-items: center;
   align-items: center;
+  gap: 40px;
+  
 }
 
 .about-me-text {
-  padding: 40px;
+  padding: 35px;
   display: flex;
   flex-direction: column;
+  border-radius: 30px;
+  height: 450px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
 .about-me-text h2,
 .projects-section h2,
 .skills-section h2,
@@ -28,9 +34,30 @@
 }
 
 .about-me-text p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.box2 p {
   padding-top: 20px;
-  
+}
+
+.box2 svg {
+  stroke: rgb(251, 235, 246);
+  fill: rgb(251, 219, 240);
+  cursor: pointer;
+}
+
+.box2 svg:hover {
+  stroke: rgb(251, 235, 246);
+  fill: rgb(249, 194, 229);
+}
+
+
+.social-links {
+  padding-top: 20px;
+  display: flex;
+  justify-content: end;
 }
 
 .about-me-image {
@@ -38,6 +65,9 @@
   width: 450px;
   align-content: center;
   text-align: center;
+  border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
 }
 
 .about-me-image img {
@@ -46,4 +76,5 @@
   border-radius: 30px;
   object-fit: cover;
   object-position: center;
+  
 }

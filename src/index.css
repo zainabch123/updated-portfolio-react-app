@@ -199,6 +199,13 @@ p {
     url("./fonts/Open_Sans/static/OpenSans-Regular.ttf") format("truetype");
   font-weight: 400;
 }
+@font-face {
+  font-family: "Lato";
+  src: local("LatoRegular"),
+    url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
 
 
 
