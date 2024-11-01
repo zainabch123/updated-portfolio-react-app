@@ -42,8 +42,9 @@
   flex-shrink: 0;
 }
 .nav-links:hover {
-  text-decoration: underline;
-  padding-top: 0px;
+  background-color: rgba(200, 200, 200, 0.2);
+  border-radius: 15px;
+  
 }
 
 @media (max-width: 580px) {

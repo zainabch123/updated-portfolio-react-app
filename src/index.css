@@ -52,9 +52,8 @@ main {
   margin-top: 20px;
   padding: 10px;
   border-radius: 30px;
-  border: none;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-
+  background-color: rgb(230, 230, 230);
+  border: 1px solid black;
   cursor: pointer;
 }
 
