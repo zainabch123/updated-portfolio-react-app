@@ -18,10 +18,9 @@
 .about-me-text {
   width: 100%; 
   max-width: 470px; 
-  min-height: 450px; 
+  height: 450px; 
   padding: 35px;
   border-radius: 12px;
-   flex: 1 1 300px;
 }
 
 .about-me-text h2,
@@ -70,11 +69,11 @@
 }
 
 .about-me-image {
-  height: 450px;
-  width: 450px;
+  max-height: 450px;
+  max-width: 450px;
   align-content: center;
   text-align: center;
-   border-radius: 12px;
+  border-radius: 12px;
 
 }
 
@@ -85,4 +84,23 @@
   object-fit: cover;
   object-position: center;
   
+}
+
+@media (max-width: 768px) {
+  .about-me-text {
+    width: 400px;
+    height: 400px;
+  }
+
+  .about-me-image img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .about-me-text h2 {
+    font-size: 2rem;
+  }
+  .about-me-text p {
+    font-size: 1rem;
+  }
 }
