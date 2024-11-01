@@ -20,11 +20,8 @@
   padding: 35px;
   display: flex;
   flex-direction: column;
-  border-radius: 30px;
   height: 450px;
   border-radius: 12px;
-
-
 }
 
 .about-me-text h2,
