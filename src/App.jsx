@@ -1,16 +1,20 @@
-import { useState, useEffect, useRef } from "react";
+import { useRef } from "react";
 import AboutMe from "./AboutMe/AboutMe";
 import Contact from "./Contact/Contact";
 import MyProjects from "./Projects/MyProjects";
 import Skills from "./Skills/Skills";
 import NavBar from "./Nav-Bar/NavBar";
 
+
+
 function App() {
+  const scrollableRef = useRef(null);
+
   return (
     <div className="container">
-      <NavBar />
+      <NavBar scrollableRef={scrollableRef} />
       <main>
-        <div className="overflow-container">
+        <div className="overflow-container" ref={scrollableRef}>
           <section className="title-section">
             <div className="title">
               <h1 className="first-line">Welcome to my Portfolio.</h1>

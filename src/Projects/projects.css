@@ -23,8 +23,8 @@
 
 .project-container {
   position: relative;
-  width: 350px;
-  height: 340px;
+  width: 410px;
+  height: 400px;
   margin-top: 40px;
   display: grid;
   grid-template-rows: 2fr 1fr;
@@ -37,14 +37,14 @@
 
 
 .project-container:hover {
-  background-color: rgb(245, 245, 245, 0.5);
+  background-color: rgb(245, 245, 245, 0.8);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 
 .project-image {
   height: 160px;
-  width: 100%;
+  width: auto;
 }
 
 .project-image img {
@@ -56,7 +56,7 @@
 }
 
 .project-text {
-  padding: 30px;
+  padding: 30px 30px 30px 30px;
   text-align: start;
   
 }
@@ -69,6 +69,10 @@
   color: gray;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+span {
+  font-weight: 700;
 }
 
 .scroll-button {
@@ -87,4 +91,90 @@
 
 #left-button {
   left: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  height: 100vh;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(30px);
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;  
+}
+
+.overlay-card {
+  width: 100%;
+  max-width: 800px;
+  height: fit-content;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: auto;
+  }
+
+
+.close-modal {
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  margin-top: 20px;
+  background: none;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.overlay-card img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: top left;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.overlay-text {
+  padding: 40px;
+  justify-items: start;
+}
+
+
+.selected-project-name {
+  padding: 10px 0px;
+}
+
+.selected-project-descr {
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+.selected-project-descr li {
+  font-size: 1.1rem;
+  font-family: "Open Sans";
+  padding: 0px 20px;
+}
+
+.overlay-links {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  padding: 20px 50px;
+  font-size: 1.3rem;
+}
+
+.overlay-links svg {
+  fill: black;
+  display: inline-block;
+  margin-left: 10px;
 }

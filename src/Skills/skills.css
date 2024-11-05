@@ -17,7 +17,7 @@
   height: auto;
   width: 250px;
   border-radius: 30px;
-  flex: 0 1 250px; /* Allows items to be the width of 350px and wrap properly */
+  flex: 0 1 250px;
   display: grid;
   grid-template-rows: auto 1fr;
 }
@@ -30,3 +30,4 @@
   font-size: 1rem;
   color: gray;
 }
+

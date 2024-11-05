@@ -6,6 +6,7 @@
   font-family: "Geist";
 }
 
+
 .container {
   display: flex;
   flex-direction: column;
@@ -54,6 +55,7 @@ main {
   background-color: rgb(230, 230, 230);
   border: 1px solid black;
   cursor: pointer;
+  color: black;
 }
 
 .title-section button:hover {
