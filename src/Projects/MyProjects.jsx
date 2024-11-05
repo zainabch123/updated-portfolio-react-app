@@ -80,29 +80,35 @@ export default function MyProjects() {
       detailedDesc: (
         <>
           <p>
-            Built as part of team development simulation, this social-media
-            style allows users to interact with teachers and students within
-            their cohort. Key areas that I worked include:
-            <li>
-              Updated apps context so that essential user data can be accessed
-              throughout the UI even when refreshed.
-            </li>
-            <li>New users can register and create their initial profile.</li>
-            <li>Users can view their profile and the profile of other users</li>
-            <li>
-              Students can edit their own profile while teacher can edit any
-              profile and update user permsissions using role-based access.
-            </li>
+            Developed as part of a team simulation, this social-media-style app
+            enables users to interact with teachers and students within their
+            cohort. Key areas I contributed to include:
           </p>
+          <li>
+            Updated the app's context to ensure essential user data is
+            accessible throughout the UI, even after page refreshes.
+          </li>
+          <li>
+            Implemented user registration, allowing new users to register and
+            create their initial profiles.
+          </li>
+          <li>
+            Developed functionality for users to view their own profiles and the
+            profiles of others.
+          </li>
+          <li>
+            Enabled students to edit their profiles, while teachers can edit any
+            profile and manage user permissions using role-based access control.
+          </li>
           <br />
           <p>
-            {" "}
-            An integral part of this team-dev simulation was that it utilized
-            Agile methodoliges. This included, regular stand-ups, retros, and
-            reporting to a scrum master. This process also involved breaking
-            down client specifications and creating plans for each which the
-            team could pick up as tickets. A very worthwhile experience of
-            collaboration and real-life coding.
+            An integral aspect of this team development simulation was the use
+            of Agile methodologies. This included regular stand-ups,
+            retrospectives, and reporting to a Scrum Master. The process
+            involved breaking down client specifications into actionable tasks,
+            which the team could pick up as tickets and plan. It was a highly
+            valuable experience in collaboration and real-world coding
+            practices.
           </p>
           <br />
           <p>
@@ -133,8 +139,36 @@ export default function MyProjects() {
       name: "Spotify Dashboard Clone",
       briefDescr:
         "An earlier 3-day project utilizing advanced HTML and CSS to re-create the Spotify Dashboard Page whilst maintaining the web-pages responsivness.",
-      detailedDesc:
-        "A HTML and CSS-based front-end project, aiming to mirror Spotify's intuitive interface and responsivness. The project showcases a fully responsive design, allowing seamless user experiences across multiple devices and screen sizes. ",
+      detailedDesc: (
+        <>
+          <p>
+            This project is a front-end application built with HTML and CSS,
+            designed to replicate Spotify's intuitive interface and
+            responsiveness. The objective was to create a visually appealing,
+            user-friendly design that adapts seamlessly to various devices and
+            screen sizes. Key features include:
+            <li>
+              A responsive design ensuring the layout adjust fluidly upon the
+              change of screen-size
+            </li>
+            <li>
+              Custom styling which utilized advanced CSS techniques such as Grid
+              and media queries to achieve a polished and adaptable layout.
+            </li>
+            <li>
+              Ineractive Elements which includes hover effects, transitions, and
+              other UI enhancements to mimic the interactive feel of a modern
+              web application.
+            </li>
+          </p>
+          <br />
+          <p>
+            This project demonstrates a strong grasp of responsive design
+            principles and attention to detail in recreating a popular and
+            highly functional user interface.
+          </p>
+        </>
+      ),
       image: SpotifyDashboardImg,
       techStack: ["HTML", "CSS"],
       liveLink: "",
@@ -262,7 +296,6 @@ export default function MyProjects() {
                   </svg>
                 </a>
               )}
-
               {selectedProject.gitLink && (
                 <a href={selectedProject.gitLink}>
                   <svg
