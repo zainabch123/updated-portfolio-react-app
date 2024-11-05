@@ -76,9 +76,43 @@ export default function MyProjects() {
       id: 2,
       name: "Cohort Manager App",
       briefDescr:
-        "A social media app built as part of a 2-week team development simulation. I worked on both the frontend and backend for this project.",
-      detailedDesc:
-        "Built as part of 2-week team-development simulation which utilized Agile methodologies, this app allows users to make posts and interact with other teachers and students in their cohort. I played a key part in implementing the main functionailty of this app including, enabling the register new user function. Another aspect I developed was the user profile page, which they can access from the dashboard. Users can edit and save their profile. Once saved, the profile page automatically displays the new profile. The backend is powered by Node.js and Express, and it connects the front-end to a PostgreSQL database. Other key features of the backend is the use of classes to define key functions and variables. The frontend is  built with React providing a clean and user-friendly interface. ",
+        "A social-media style app built as part of a 2-week team development simulation using an existing codebase. I worked on both the frontend and backend for this project.",
+      detailedDesc: (
+        <>
+          <p>
+            Built as part of team development simulation, this social-media
+            style allows users to interact with teachers and students within
+            their cohort. Key areas that I worked include:
+            <li>
+              Updated apps context so that essential user data can be accessed
+              throughout the UI even when refreshed.
+            </li>
+            <li>New users can register and create their initial profile.</li>
+            <li>Users can view their profile and the profile of other users</li>
+            <li>
+              Students can edit their own profile while teacher can edit any
+              profile and update user permsissions using role-based access.
+            </li>
+          </p>
+          <br />
+          <p>
+            {" "}
+            An integral part of this team-dev simulation was that it utilized
+            Agile methodoliges. This included, regular stand-ups, retros, and
+            reporting to a scrum master. This process also involved breaking
+            down client specifications and creating plans for each which the
+            team could pick up as tickets. A very worthwhile experience of
+            collaboration and real-life coding.
+          </p>
+          <br />
+          <p>
+            The backend is powered by Node.js and Express. A PostrgeSQL database
+            is used to store data.Other key features of the backend is the use
+            of classes to define key functions and variables. The frontend is
+            built with React providing a clean and user-friendly interface.
+          </p>
+        </>
+      ),
       image: CohortDashboardImg,
       techStack: [
         "React",
