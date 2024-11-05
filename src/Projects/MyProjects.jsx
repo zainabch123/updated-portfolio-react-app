@@ -53,7 +53,8 @@ export default function MyProjects() {
             connecting the frontend to a PostgreSQL database. Both the backend
             and frontend feature robust error handling to ensure a smooth user
             experience. Future updates will introduce functionality for users to
-            delete and edit trips directly from the dashboard, as well as share plans with other users.
+            delete and edit trips directly from the dashboard, as well as share
+            plans with other users.
           </p>
         </>
       ),
@@ -257,12 +258,12 @@ export default function MyProjects() {
           <p>
             An integral aspect of this project was utilizing React State
             Management to handle interactions and update the UI with immediate
-            effect. 
-            By utilizing React hooks, such as useState, I was able to
+            effect. By utilizing React hooks, such as useState, I was able to
             manage the state of various elements, including cart items and
             quantities. This allowed for immediate UI updates whenever changes
             were made, such as adding or removing items, updating quantities, or
-            recalculating the total price, allowing for a streamlined user experience.
+            recalculating the total price, allowing for a streamlined user
+            experience.
           </p>
         </>
       ),
@@ -276,7 +277,37 @@ export default function MyProjects() {
       name: "Brewery Tours Website",
       briefDescr:
         "A 4-day JavaScript DOM project that enables users to search and filter results from a Brewery REST API using advanced techniques.",
-      detailedDesc: "This is the detailed description.",
+      detailedDesc: (
+        <>
+          <p>
+            A frotend project built entirely using JSDOM and CSS, designed to
+            allow users to search and filter a Brewery REST API. Key features
+            include:
+            <li>Users can easily search for breweries by name or location.</li>
+            <li>
+              Advanced filtering capabilities allow users to narrow down results
+              based on specific criteria, such as type of brewery or city.
+            </li>
+            <li>
+              Responsive design which adapts easily to changes in screen size.
+            </li>
+            <li>
+              Results update instantly as users input search terms or apply
+              filters.
+            </li>
+          </p>
+          <br />
+          <p>
+            This project provided me with valuable insights into utilizing
+            JavaScript DOM (JSDOM) for building interactive web applications. I
+            learned how to implement effective search and filtering mechanisms
+            that enhance user experience by enabling real-time data retrieval
+            from the Brewery REST API. Through this project, I honed my skills
+            in managing state and handling user inputs, ensuring that the
+            application responds dynamically to user interactions.
+          </p>
+        </>
+      ),
       image: BreweryToursImg,
       techStack: ["JS DOM", "HTML", "CSS"],
       liveLink: "",
