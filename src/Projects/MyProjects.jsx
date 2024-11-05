@@ -53,8 +53,7 @@ export default function MyProjects() {
             connecting the frontend to a PostgreSQL database. Both the backend
             and frontend feature robust error handling to ensure a smooth user
             experience. Future updates will introduce functionality for users to
-            delete and edit trips directly from the dashboard, as well as access
-            and manage profile settings.
+            delete and edit trips directly from the dashboard, as well as share plans with other users.
           </p>
         </>
       ),
@@ -76,7 +75,7 @@ export default function MyProjects() {
       id: 2,
       name: "Cohort Manager App",
       briefDescr:
-        "A social-media style app built as part of a 2-week team development simulation using an existing codebase. I worked on both the frontend and backend for this project.",
+        "A social-media style app built as part of a 2-week team development simulation using an existing codebase. Worked on both the frontend and backend for this project.",
       detailedDesc: (
         <>
           <p>
@@ -100,6 +99,7 @@ export default function MyProjects() {
             Enabled students to edit their profiles, while teachers can edit any
             profile and manage user permissions using role-based access control.
           </li>
+          <li>Updated the API using .yaml whenver changes were made.</li>
           <br />
           <p>
             An integral aspect of this team development simulation was the use
@@ -163,9 +163,10 @@ export default function MyProjects() {
           </p>
           <br />
           <p>
-            This project demonstrates a strong grasp of responsive design
-            principles and attention to detail in recreating a popular and
-            highly functional user interface.
+            This project provided me with valuable experience in applying
+            responsive design principles and it also refined my attention to
+            detail in order to accurately accurately recreate a popular, highly
+            functional user interface.
           </p>
         </>
       ),
@@ -179,7 +180,45 @@ export default function MyProjects() {
       name: "Cinema Booking API",
       briefDescr:
         "A 4-day project which involved building an API from scratch, utilizing CRUD operations. Also implemented own test suites.",
-      detailedDesc: "This is the detailed description.",
+      detailedDesc: (
+        <>
+          <p>
+            This project is primarily a backend application, focused on
+            developing a cinema API that allows users to Create, Read, Update,
+            and Delete (CRUD) movie entries. Key features includes:
+            <li>
+              Well-structured and efficient RESTful API, designed to follow best
+              practices for resource management and scalability.
+            </li>
+            <li>
+              Utilized Prisma Client for efficient interaction with a PostgreSQL
+              database, ensuring smooth data retrieval, updates, and management.
+            </li>
+            <li>
+              Comprehensive error handling, with robust mechanisms to capture,
+              log, and respond to various types of errors while providing
+              appropriate error messages to facilitate debugging.
+            </li>
+          </p>
+          <br />
+          <p>
+            A key aspect of this project was implementing custom test suites to
+            ensure the code functioned as expected. This process provided
+            invaluable hands-on experience with industry-standard testing
+            practices, helping to identify bugs, improve code quality, and
+            enhance overall project reliability.
+          </p>
+          <br />
+          <p>
+            This project significantly strengthened my backend development
+            skills, particularly in building and optimizing RESTful APIs. It
+            provided hands-on experience in working with databases through
+            Prisma Client and PostgreSQL, where I learned to manage data
+            efficiently and implement complex CRUD operations. Additionally, I
+            gained valuable insights into error handling and TDD.
+          </p>
+        </>
+      ),
       image: CinemaBookingImg,
       techStack: [
         "Express",
@@ -199,8 +238,34 @@ export default function MyProjects() {
       name: "Greengrocers Exercise",
       briefDescr:
         "A shopping-cart exericise built in 1-day which allows users to add items to cart and filter and sort items. Built entirely in React.",
-      detailedDesc:
-        "A frotend app which allows users to add and delete items from a shopping cart. Item quantities automatically update, as well as the carts total price. Built entirely in React for a user-friendly interface.",
+      detailedDesc: (
+        <>
+          <p>
+            This project is a frontend application built with React, designed to
+            replicate a shopping cart experience. Key features include:
+            <li>
+              User friendly interface where users can identify items with ease.
+            </li>
+            <li>
+              Users can view, add, delete, items in a cart as well as update
+              their quantities at any time.
+            </li>
+            <li>Cart's total price is updated instantly upon change.</li>
+            <li>Users can sort and filter items by price or type.</li>
+          </p>
+          <br />
+          <p>
+            An integral aspect of this project was utilizing React State
+            Management to handle interactions and update the UI with immediate
+            effect. 
+            By utilizing React hooks, such as useState, I was able to
+            manage the state of various elements, including cart items and
+            quantities. This allowed for immediate UI updates whenever changes
+            were made, such as adding or removing items, updating quantities, or
+            recalculating the total price, allowing for a streamlined user experience.
+          </p>
+        </>
+      ),
       image: GreengrocersImg,
       techStack: ["React", "HTML", "CSS"],
       liveLink: "",
@@ -210,7 +275,7 @@ export default function MyProjects() {
       id: 6,
       name: "Brewery Tours Website",
       briefDescr:
-        "A 4-day JS-DOM project built with advanced search and filter functionality to enable users to interact with brewery data obtained from a REST API.",
+        "A 4-day JavaScript DOM project that enables users to search and filter results from a Brewery REST API using advanced techniques.",
       detailedDesc: "This is the detailed description.",
       image: BreweryToursImg,
       techStack: ["JS DOM", "HTML", "CSS"],
