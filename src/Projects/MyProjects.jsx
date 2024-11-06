@@ -38,23 +38,16 @@ export default function MyProjects() {
               A sidebar provides a concise overview of the items in each trip.
             </li>
           </p>
-          <br />
+          <br/>
           <p>
-            The frontend is built with React and CSS providing an intuitive,
-            responsive, and user-friendly interface. A key focus of the frontend
-            is ensuring components update seamlessly when new data is entered.
-            This is achieved through the efficient use of React hooks, primarily
-            useEffect for managing side effects and useContext for state
-            management and sharing data across components.
-          </p>
-          <br />
-          <p>
-            The backend is powered by Node.js and Express.js, seamlessly
-            connecting the frontend to a PostgreSQL database. Both the backend
-            and frontend feature robust error handling to ensure a smooth user
-            experience. Future updates will introduce functionality for users to
-            delete and edit trips directly from the dashboard, as well as share
-            plans with other users.
+            Developing this travel planner app, from conception to deployment,
+            gave me valuable experience building a full-stack application. I
+            deepened my knowledge of API integration, including working with the
+            TripAdvisor API to fetch real-time data. On the backend, I
+            strengthened my skills in Node.js, Express, and PostgreSQL,
+            implementing secure authentication and efficient data handling. On
+            the frontend, I expanded my understanding of React's state
+            management to create a responsive and seamless user interface.
           </p>
         </>
       ),
@@ -110,13 +103,6 @@ export default function MyProjects() {
             which the team could pick up as tickets and plan. It was a highly
             valuable experience in collaboration and real-world coding
             practices.
-          </p>
-          <br />
-          <p>
-            The backend is powered by Node.js and Express. A PostrgeSQL database
-            is used to store data.Other key features of the backend is the use
-            of classes to define key functions and variables. The frontend is
-            built with React providing a clean and user-friendly interface.
           </p>
         </>
       ),

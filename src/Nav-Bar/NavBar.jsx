@@ -1,20 +1,17 @@
-import { useRef } from 'react';
+import "./navBar.css";
 
-import './navBar.css';
-
-const NavBar = ({scrollableRef}) => {
-
+const NavBar = ({ scrollableRef }) => {
   const scrollToTop = () => {
     scrollableRef.current.scrollTo({ top: 0, behavior: "smooth" });
-  }
-  
+  };
+
   return (
     <nav className="navigation-bar">
       <div className="nav-buttons">
         <a href="#" id="nav-name" onClick={scrollToTop}>
           Zainab Choudhry
         </a>
-        <a href="#navigation-bar" id="nav-initials">
+        <a href="#navigation-bar" id="nav-initials" onClick={scrollToTop}>
           ZC
         </a>
         <a className="nav-links" href="#about-section">

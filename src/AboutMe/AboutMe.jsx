@@ -1,5 +1,4 @@
 import ProfileImg from "../assets/ProfileImg8.jpeg";
-
 import "./aboutMe.css";
 
 export default function AboutMe() {
