@@ -324,21 +324,13 @@ export default function MyProjects() {
     setSelectedProject(null);
   };
 
-  const handleNav = (direction) => {
-    if (direction === "left") {
-      navRef.current.scrollLeft -= 400;
-    } else {
-      navRef.current.scrollLeft += 400;
-    }
-  };
-
   return (
     <section className="projects-section" id="projects-section">
-      <h2>My Projects</h2>
-      <p className="projects-tag-line">
+      <h2 className="animated-section">My Projects</h2>
+      <p className="projects-tag-line animated-section">
         Check out some of the projects I'm working on.
       </p>
-      <ul className="project-links" ref={navRef}>
+      <ul className="project-links animated-section" ref={navRef}>
         {projects.map((project, index) => {
           return (
             <li
@@ -346,7 +338,7 @@ export default function MyProjects() {
               className="project-container"
               onClick={() => openOverlay(project)}
             >
-              <div className="project-image">
+              <div className="image-container">
                 <img src={project.image} alt="Project Image" />
               </div>
               <div className="project-text">

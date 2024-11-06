@@ -4,7 +4,7 @@ import "./aboutMe.css";
 
 export default function AboutMe() {
   return (
-    <section className="about-section" id="about-section">
+    <section className="about-section animated-section" id="about-section">
       <div className="about-elements">
         <div className="about-me-text box1">
           <h2>About Me</h2>

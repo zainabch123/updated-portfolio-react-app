@@ -28,7 +28,7 @@ export default function Contact() {
     });
 
     if (formRef.current) {
-      formRef.current.reset(); // This clears the form data
+      formRef.current.reset(); 
     }
   }
 
@@ -38,8 +38,8 @@ export default function Contact() {
 
   return (
     <section className="contact-section" id="contact-section">
-      <h2>Get in touch</h2>
-      <p>
+      <h2 className="animated-section">Get in touch</h2>
+      <p className="animated-section">
         Feel free to reach out if you have any questions or would like to
         discuss a project.
       </p>
@@ -48,6 +48,7 @@ export default function Contact() {
         action="https://public.herotofu.com/v1/1ddc7270-9619-11ef-840d-9fdbf4f87a8b"
         method="POST"
         onSubmit={handleOnSubmit}
+        className="animated-section"
       >
         <input
           type="text"

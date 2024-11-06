@@ -28,12 +28,14 @@ main {
 }
 
 .title-section {
+  position: relative;
   flex: 0 0 70vh;
    display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(251, 235, 246);
   padding-bottom: 30px;
+  margin-bottom: 40px;
  
 }
 
@@ -100,6 +102,17 @@ main {
 
 p {
   font-family: "Open Sans";
+}
+
+.animated-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animated-section.in-view {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
