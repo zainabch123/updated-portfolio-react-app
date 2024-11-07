@@ -7,7 +7,6 @@
   text-align: start;
   background-color: #E6E6FA;
   padding: 15px 0;
-  
 }
 
 .nav-buttons {
@@ -47,6 +46,7 @@
   padding: 10px 10px;
   text-decoration: none;
   color: black;
+
 }
 .nav-links *:hover {
   background-color: rgba(175, 175, 175, 0.25);
