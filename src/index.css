@@ -17,30 +17,22 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  
 }
 
-.overflow-container {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  overflow-y: auto;
-}
 
 .title-section {
   position: relative;
-  flex: 0 0 70vh;
-   display: flex;
-  justify-content: center;
+  flex: 0 0 80vh;
+  display: flex;
+  text-align: center;
   align-items: center;
-  background-color: rgb(251, 235, 246);
-  padding: 0px 20px 40px 20px;
-  margin-bottom: 50px;
- 
+  background: linear-gradient(to bottom, #E6E6FA,   white);
+  padding: 0px 30px 0px 30px;
 }
 
 .title {
-  text-align: center;
+  margin: 0 auto;
 }
 
 .title-section h1 {
@@ -50,12 +42,17 @@ main {
   padding-left: 0px;
 }
 
+.title-section span {
+  color: #b9b9c9;
+}
+
+
 .title-section button {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px;
   border-radius: 30px;
   background-color: rgb(230, 230, 230);
-  border: 1px solid black;
+  border: 1px solid #666;
   cursor: pointer;
   color: black;
 }
@@ -75,12 +72,17 @@ main {
 }
 
 .first-line {
-  animation-delay: 0.5s;
+  animation-delay: 0.3s;
+}
+
+.second-line {
+  animation-delay: 0.8s;
 }
 
 
+
 .title p {
-  animation-delay: 1s;
+  animation-delay: 1.2s;
 }
 
 .title button {

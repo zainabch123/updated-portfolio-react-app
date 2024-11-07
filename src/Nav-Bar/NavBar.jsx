@@ -9,23 +9,22 @@ const NavBar = ({ scrollableRef }) => {
     <nav className="navigation-bar">
       <div className="nav-buttons">
         <a href="#" id="nav-name" onClick={scrollToTop}>
-          Zainab Choudhry
-        </a>
-        <a href="#navigation-bar" id="nav-initials" onClick={scrollToTop}>
           ZC
         </a>
-        <a className="nav-links" href="#about-section">
-          About
-        </a>
-        <a className="nav-links" href="#projects-section">
-          Projects
-        </a>
-        <a className="nav-links" href="#skills-section">
-          Skills
-        </a>
-        <a className="nav-links" href="#contact-section">
-          Contact
-        </a>
+        <div className="nav-links">
+          <a className="about-link" href="#about-section">
+            About
+          </a>
+          <a className="projects-link" href="#projects-section">
+            Projects
+          </a>
+          <a className="skills-link" href="#skills-section">
+            Skills
+          </a>
+          <a className="contact-link" href="#contact-section">
+            Contact
+          </a>
+        </div>
       </div>
     </nav>
   );

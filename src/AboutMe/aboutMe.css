@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 0px 80px 0px;
+  padding: 110px 0px 110px 0px;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .about-elements {
@@ -16,10 +18,10 @@
 
 .about-me-text {
   width: 100%; 
-  max-width: 430px; 
+  max-width: 400px; 
   padding: 35px;
   border-radius: 12px;
-  min-height: 440px; 
+  min-height: 430px;
 }
 
 .about-me-text h2,
@@ -36,7 +38,7 @@
 }
 
 .box1 {
-  background-color: #f5f5f5;
+  background-color: rgb(230, 230, 250, 0.6);
   
 }
 
@@ -50,14 +52,14 @@
 }
 
 .box2 svg {
-  stroke: rgb(251, 235, 246);
-  fill: rgb(251, 219, 240);
+  stroke: #dcdcee;
+  fill: #dcdcee;
   cursor: pointer;
 }
 
 .box2 svg:hover {
-  stroke: rgb(249, 194, 229);
-  fill: rgb(249, 194, 229);
+   stroke: #b9b9c9;
+  fill: #b9b9c9;
 }
 
 
@@ -69,7 +71,7 @@
 
 .about-me-image {
   width: 100%;
-  max-width: 440px;
+  max-width: 400px;
   text-align: center;
   border-radius: 12px;
 
@@ -77,8 +79,8 @@
 
 .about-me-image img {
   width: 100%;
-  height: auto;
-   border-radius: 12px;
+  height: 430px;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center;
   

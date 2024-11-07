@@ -18,14 +18,12 @@ function App() {
         elements.forEach((element) => {
           if (element.isIntersecting) {
             element.target.classList.add("in-view");
-          } else {
-            element.target.classList.remove("in-view");
           }
         });
       },
       {
         root: document.querySelector(".overflow-container"),
-        threshold: 0.1,
+        threshold: 0.2,
       }
     );
 
@@ -37,26 +35,27 @@ function App() {
 
   return (
     <div className="container">
-      <NavBar scrollableRef={scrollableRef} />
-      <main>
-        <div className="overflow-container" ref={scrollableRef}>
-          <section className="title-section">
-            <div className="title">
-              <h1 className="first-line">Welcome to my Portfolio.</h1>
-              <p>Explore my latest projects and learn more about me.</p>
-              <a href="#about-section">
-                <button>Learn More</button>
-              </a>
-            </div>
-          </section>
-          <AboutMe />
-          <MyProjects />
-          <Skills />
-          <Contact />
-          <footer className="footer-section">
-            <p>&copy; Zainab Choudhry 2024. </p>
-          </footer>
-        </div>
+      <main ref={scrollableRef}>
+        <NavBar scrollableRef={scrollableRef} />
+        <section className="title-section">
+          <div className="title">
+            <h1 className="first-line">Hi! I'm Zainab.</h1>
+            <h1 className="second-line">
+              I'm a <span>Full Stack Developer.</span>
+            </h1>
+            <p>Explore my latest projects and learn more about me.</p>
+            <a href="#about-section">
+              <button>Learn More</button>
+            </a>
+          </div>
+        </section>
+        <AboutMe />
+        <MyProjects />
+        <Skills />
+        <Contact />
+        <footer className="footer-section">
+          <p>&copy; Zainab Choudhry 2024. </p>
+        </footer>
       </main>
     </div>
   );

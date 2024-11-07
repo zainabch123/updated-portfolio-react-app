@@ -16,7 +16,7 @@ export default function MyProjects() {
       id: 1,
       name: "Travel Planner App",
       briefDescr:
-        "A full-stack app, built in 3 weeks, which allows users to search hotels, activities, and attractions and and plan itineraries for upcoming trips.",
+        "A full-stack app, built for my final 3-week projects, where users can search hotels, activities, and attractions and and plan itineraries for upcoming trips.",
       detailedDesc: (
         <>
           <p>

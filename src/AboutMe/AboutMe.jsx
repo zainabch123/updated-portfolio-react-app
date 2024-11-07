@@ -8,14 +8,13 @@ export default function AboutMe() {
         <div className="about-me-text box1">
           <h2>About Me</h2>
           <p>
-            Hi, I'm Zainab! I'm a full-stack developer and a recent graduate of
+            Hi, I'm Zainab! I am a full-stack developer and recent graduate of
             an intensive 6-month Software Development Bootcamp. Formerly a
-            history teacher, I developed a strong interest in technology during
-            COVID when I had to adapt my teaching to an online format. This
-            experience introduced me to how technology could provide optimal
-            solutions to very real problems, sparking my curiosity about how
-            these tools worked. Motivated to learn more, I took the plunge and
-            enrolled in a coding course.
+            history teacher, my journey into coding began when I stumbled upon some free courses online which sparked my
+            curiosity. I quickly became captivated by the problem-solving
+            aspects and the creativity coding offered. Driven by the challenge
+            and the desire for continuous learning, I took the plunge and
+            enrolled in a coding bootcamp.
           </p>
         </div>
         <div className="about-me-text box2">
