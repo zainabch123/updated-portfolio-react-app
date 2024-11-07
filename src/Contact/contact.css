@@ -1,9 +1,14 @@
 
 .contact-section {
   text-align: center;
-  padding: 80px 0px 0px 0px;
-  background-color: rgb(245, 244, 244);
+  background-color: rgb(245, 244, 244, 0.5);
+  padding: 30px 0px ;
   justify-items: center;
+
+}
+
+.contact-section .title {
+  margin-top: 80px
 }
 
 .contact-section form {
@@ -50,3 +55,4 @@
   background-color: black;
   color: white;
 }
+

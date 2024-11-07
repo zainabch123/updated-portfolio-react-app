@@ -69,7 +69,7 @@ export default function MyProjects() {
       id: 2,
       name: "Cohort Manager App",
       briefDescr:
-        "A social-media style app built as part of a 2-week team development simulation using an existing codebase. Worked on both the frontend and backend for this project.",
+        "A social-media style app built as part of a 2-week team development simulation using an existing codebase. Worked on both the frontend and backend.",
       detailedDesc: (
         <>
           <p>
@@ -303,16 +303,19 @@ export default function MyProjects() {
   ]);
 
   const openOverlay = (project) => {
-    setSelectedProject(project);
+    setSelectedProject(project); 
+    document.body.classList.add("no-scroll"); 
   };
 
   const closeOverlay = () => {
     setSelectedProject(null);
+    document.querySelector(".overlay").style.display = "none";
+    document.body.classList.remove("no-scroll");
   };
 
   return (
     <section className="projects-section" id="projects-section">
-      <h2 className="animated-section">My Projects</h2>
+      <h2 className="title animated-section">My Projects</h2>
       <p className="projects-tag-line animated-section">
         Check out some of the projects I'm working on.
       </p>

@@ -1,11 +1,13 @@
 .projects-section {
   text-align: center;
-  padding: 80px 0px;
+  padding: 30px 0px;
   position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-.projects-section a {
-  text-decoration: none;
+.projects-section .title {
+  margin-top: 120px;
 }
 
 .project-links {
@@ -15,15 +17,13 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  max-width: 1700px;
   margin: 0 auto;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .project-container {
   position: relative;
-  width: 410px;
+  width: 100%;
+  max-width: 370px;
   height: 400px;
   margin-top: 40px;
   display: grid;
@@ -84,24 +84,7 @@
 
 span {
   font-weight: 700;
-}
-
-.scroll-button {
-  position: absolute;
-  z-index: 10;
-  padding: 20px;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-  height: fit-content;
-}
-
-#right-button {
-  right: 20px;
-}
-
-#left-button {
-  left: 20px;
+  color: black;
 }
 
 .overlay {
@@ -109,7 +92,7 @@ span {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 200;
   height: 100vh;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.5);
@@ -162,6 +145,10 @@ span {
   justify-items: start;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 
 .selected-project-name {
   padding: 10px 0px;
@@ -188,7 +175,8 @@ span {
 }
 
 .overlay-links svg {
-  fill: black;
+  stroke: #b9b9c9;
+  fill: #b9b9c9;
   display: inline-block;
   margin-left: 10px;
 }

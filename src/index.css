@@ -132,10 +132,11 @@ p {
 
 .footer-section {
   padding: 20px;
-  background-color: rgb(245, 244, 244);
+  background-color: rgb(245, 244, 244, 0.5);
   text-align: start;
   color: rgb(110, 108, 108);
 }
+
 
 
 

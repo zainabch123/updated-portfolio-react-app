@@ -3,7 +3,7 @@ import "./skills.css";
 export default function Skills() {
   return (
     <section className="skills-section" id="skills-section">
-      <h2 className="animated-section">My Skills</h2>
+      <h2 className="title animated-section">My Skills</h2>
       <p className="animated-section">
         Here are some of the skills I have developed.
       </p>
