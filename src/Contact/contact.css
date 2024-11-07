@@ -30,6 +30,8 @@
   padding: 15px;
   font-size: 1rem;
   border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .contact-section button {
