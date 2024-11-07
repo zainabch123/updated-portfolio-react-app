@@ -6,7 +6,6 @@
   font-family: "Geist";
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -17,9 +16,7 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  
 }
-
 
 .title-section {
   position: relative;
@@ -27,8 +24,9 @@ main {
   display: flex;
   text-align: center;
   align-items: center;
-  background: linear-gradient(to bottom, #E6E6FA,   white);
+  background: linear-gradient(to bottom, #e6e6fa, white);
   padding: 0px 30px 0px 30px;
+  
 }
 
 .title {
@@ -45,7 +43,6 @@ main {
 .title-section span {
   color: #b9b9c9;
 }
-
 
 .title-section button {
   margin-top: 30px;
@@ -76,17 +73,15 @@ main {
 }
 
 .second-line {
-  animation-delay: 0.8s;
+  animation-delay: 1s;
 }
 
-
-
 .title p {
-  animation-delay: 1.2s;
+  animation-delay: 2s;
 }
 
 .title button {
-  animation-delay: 1.5s;
+  animation-delay: 2s;
 }
 
 .title-section p,
@@ -107,16 +102,15 @@ p {
 }
 
 .animated-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(80px) scale(0.9) rotate(2deg);
+  transition: opacity 1.5s ease-out, transform 1.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .animated-section.in-view {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0) scale(1) rotate(0);
 }
-
 
 
 @keyframes fadeInUp {
@@ -131,22 +125,26 @@ p {
 }
 
 .footer-section {
+  display: grid;
   padding: 20px;
   background-color: rgb(245, 244, 244, 0.5);
-  text-align: start;
   color: rgb(110, 108, 108);
 }
 
-
-
+.footer-text {
+  display: grid;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
 @media (max-width: 580px) {
   .title-section {
-    flex: 0 0 50vh; 
+    flex: 0 0 50vh;
   }
-  
+
   .title-section h1 {
-    font-size: 5rem; 
+    font-size: 5rem;
   }
 }
 
@@ -197,7 +195,3 @@ p {
     url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
   font-weight: 400;
 }
-
-
-
-

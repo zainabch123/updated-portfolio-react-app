@@ -23,7 +23,7 @@ function App() {
       },
       {
         root: document.querySelector(".overflow-container"),
-        threshold: 0.2,
+        threshold: 0.3,
       }
     );
 
@@ -54,7 +54,9 @@ function App() {
         <Skills />
         <Contact />
         <footer className="footer-section">
+          <div className="footer-text">
           <p>&copy; Zainab Choudhry 2024. </p>
+          </div>
         </footer>
       </main>
     </div>

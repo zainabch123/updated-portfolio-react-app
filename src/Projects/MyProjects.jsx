@@ -315,16 +315,20 @@ export default function MyProjects() {
 
   return (
     <section className="projects-section" id="projects-section">
-      <h2 className="title animated-section">My Projects</h2>
-      <p className="projects-tag-line animated-section">
-        Check out some of the projects I'm working on.
-      </p>
-      <ul className="project-links animated-section" ref={navRef}>
+      <div className="project-title-section animated-section">
+        <h2 className="title">My Projects</h2>
+        <p className="projects-tag-line">
+          Check out some of the projects I'm working on.
+        </p>
+      </div>
+      <ul className="project-links" ref={navRef}>
         {projects.map((project, index) => {
           return (
             <li
               key={index}
-              className="project-container"
+              className={`project-container animated-section ${
+                index % 2 !== 0 ? "even-project" : ""
+              }`}
               onClick={() => openOverlay(project)}
             >
               <div className="image-container">

@@ -38,12 +38,12 @@
 }
 
 .box1 {
-  background-color: rgb(230, 230, 250, 0.5);
+  background-color:rgb(230, 230, 250, 0.6);
   
 }
 
 .box2 {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -74,7 +74,6 @@
   max-width: 400px;
   text-align: center;
   border-radius: 12px;
-
 }
 
 .about-me-image img {
@@ -83,6 +82,7 @@
   border-radius: 12px;
   object-fit: cover;
   object-position: center;
+  
   
 }
 @media (max-width: 580px) {

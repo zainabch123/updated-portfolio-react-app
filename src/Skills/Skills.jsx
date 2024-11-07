@@ -3,12 +3,14 @@ import "./skills.css";
 export default function Skills() {
   return (
     <section className="skills-section" id="skills-section">
-      <h2 className="title animated-section">My Skills</h2>
-      <p className="animated-section">
-        Here are some of the skills I have developed.
-      </p>
+      <div className="project-title-section animated-section">
+        <h2 className="title">My Skills</h2>
+        <p>
+          Here are some of the skills I have developed.
+        </p>
+      </div>
       <section className="skills-grid animated-section">
-        <div className="skill-card">
+        <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +27,7 @@ export default function Skills() {
             <h3 className="skill-title">JavaScript</h3>
           </div>
         </div>
-        <div className="skill-card">
+        <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +48,7 @@ export default function Skills() {
             <h3 className="skill-title">React</h3>
           </div>
         </div>
-        <div className="skill-card">
+        <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +74,7 @@ export default function Skills() {
             <h3 className="skill-title">HTML</h3>
           </div>
         </div>
-        <div className="skill-card">
+        <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +92,7 @@ export default function Skills() {
             <h3 className="skill-title">CSS</h3>
           </div>
         </div>
-        <div className="skill-card">
+        <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +113,7 @@ export default function Skills() {
             <h3 className="skill-title">ExpressJS</h3>
           </div>
         </div>
-        <div className="skill-card">
+        <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +128,7 @@ export default function Skills() {
             <h3 className="skill-title">PostgreSQL</h3>
           </div>
         </div>
-        <div className="skill-card">
+        <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
