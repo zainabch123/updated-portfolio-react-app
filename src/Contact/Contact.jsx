@@ -39,8 +39,8 @@ export default function Contact() {
         Feel free to reach out if you have any questions or would like to
         discuss a project.
       </p>
-      <div className="contact-me-links">
-        <div className="linkedIn">
+      <div className="contact-me-links animated-section">
+        <div className="linkedIn animated-section">
           <a href="https://www.linkedin.com/in/zainab-choudhry-244005189/">
             <svg
               strokeWidth="0"
@@ -54,7 +54,7 @@ export default function Contact() {
             <h4>LinkedIn</h4>
           </a>
         </div>
-        <div className="email">
+        <div className="email animated-section">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -65,7 +65,7 @@ export default function Contact() {
           </svg>
           <h4>zainabchoudhry05@gmail.com</h4>
         </div>
-        <div className="gitHub">
+        <div className="gitHub animated-section">
           <a href="https://github.com/zainabch123">
             <svg
               strokeWidth="0"
