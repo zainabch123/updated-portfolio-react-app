@@ -11,6 +11,37 @@
   margin-top: 80px
 }
 
+.contact-me-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.contact-me-links a {
+   text-decoration: none;
+   
+}
+
+.linkedIn a, .email, .gitHub a {
+  display: grid;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.contact-me-links h4 {
+  grid-column: 2 / span 1;
+  padding: 0px 10px;
+  color: black;
+}
+
+.contact-me-links svg {
+  stroke: #b9b9c9;
+  fill: #b9b9c9;
+  cursor: pointer;
+}
+
+
+
 .contact-section form {
   display: flex;
   flex-direction: column;
