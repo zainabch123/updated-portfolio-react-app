@@ -47,7 +47,6 @@ export default function Contact() {
         ref={formRef}
         action="https://public.herotofu.com/v1/1ddc7270-9619-11ef-840d-9fdbf4f87a8b"
         method="POST"
-        onSubmit={handleOnSubmit}
         className="animated-section"
       >
         <input
@@ -56,8 +55,6 @@ export default function Contact() {
           name="Name"
           id="name"
           required
-          onChange={handleOnInput}
-          value={formData.Name}
         />
         <input
           type="email"
@@ -65,15 +62,11 @@ export default function Contact() {
           name="Email"
           id="email"
           required
-          onChange={handleOnInput}
-          value={formData.Email}
         />
         <textarea
           id="message"
           placeholder="Message"
           name="Message"
-          onChange={handleOnInput}
-          value={formData.Message}
         ></textarea>
         <button id="submit-button" type="submit">
           Submit
