@@ -38,7 +38,7 @@ export default function MyProjects() {
               A sidebar provides a concise overview of the items in each trip.
             </li>
           </p>
-          <br/>
+          <br />
           <p>
             Developing this travel planner app, from conception to deployment,
             gave me valuable experience building a full-stack application. I
@@ -99,10 +99,17 @@ export default function MyProjects() {
             An integral aspect of this team development simulation was the use
             of Agile methodologies. This included regular stand-ups,
             retrospectives, and reporting to a Scrum Master. The process
-            involved breaking down client specifications into actionable tasks,
-            which the team could pick up as tickets and plan. It was a highly
-            valuable experience in collaboration and real-world coding
-            practices.
+            involved breaking down client specifications from Figma into
+            actionable tasks, which were organized into tickets for the team to
+            prioritize and plan effectively. It was a highly valuable experience
+            in collaboration and real-world coding practices.
+          </p>
+          <br />
+          <p>
+            <span>Login:</span> student@test.com OR teacher@test.com
+          </p>
+          <p>
+            <span>Password:</span> Testpassword1!
           </p>
         </>
       ),
@@ -118,6 +125,8 @@ export default function MyProjects() {
         "JWT",
         "Agile",
       ],
+      designSpec:
+        "https://www.figma.com/design/j9QIHvgM0wOVw3xDe9KdWB/My-Copy%3A-Cohort-Manager-app---Designs",
       liveLink: "https://main.d2q5tbadmopx4b.amplifyapp.com/login",
       gitLink: "https://github.com/boolean-uk/team-dev-client-c13",
     },
@@ -303,8 +312,8 @@ export default function MyProjects() {
   ]);
 
   const openOverlay = (project) => {
-    setSelectedProject(project); 
-    document.body.classList.add("no-scroll"); 
+    setSelectedProject(project);
+    document.body.classList.add("no-scroll");
   };
 
   const closeOverlay = () => {
@@ -387,6 +396,24 @@ export default function MyProjects() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
+                  </svg>
+                </a>
+              )}
+              {selectedProject.designSpec && (
+                <a href={selectedProject.designSpec}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40px"
+                    height="40px"
+                    viewBox="0 0 15 15"
+                    fill="#b9b9c9"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.00005 2.04999H5.52505C4.71043 2.04999 4.05005 2.71037 4.05005 3.52499C4.05005 4.33961 4.71043 4.99999 5.52505 4.99999H7.00005V2.04999ZM7.00005 1.04999H8.00005H9.47505C10.842 1.04999 11.95 2.15808 11.95 3.52499C11.95 4.33163 11.5642 5.04815 10.9669 5.49999C11.5642 5.95184 11.95 6.66836 11.95 7.475C11.95 8.8419 10.842 9.95 9.47505 9.95C8.92236 9.95 8.41198 9.76884 8.00005 9.46266V9.95L8.00005 11.425C8.00005 12.7919 6.89195 13.9 5.52505 13.9C4.15814 13.9 3.05005 12.7919 3.05005 11.425C3.05005 10.6183 3.43593 9.90184 4.03317 9.44999C3.43593 8.99814 3.05005 8.28163 3.05005 7.475C3.05005 6.66836 3.43594 5.95184 4.03319 5.5C3.43594 5.04815 3.05005 4.33163 3.05005 3.52499C3.05005 2.15808 4.15814 1.04999 5.52505 1.04999H7.00005ZM8.00005 2.04999V4.99999H9.47505C10.2897 4.99999 10.95 4.33961 10.95 3.52499C10.95 2.71037 10.2897 2.04999 9.47505 2.04999H8.00005ZM5.52505 8.94998H7.00005L7.00005 7.4788L7.00005 7.475L7.00005 7.4712V6H5.52505C4.71043 6 4.05005 6.66038 4.05005 7.475C4.05005 8.28767 4.70727 8.94684 5.5192 8.94999L5.52505 8.94998ZM4.05005 11.425C4.05005 10.6123 4.70727 9.95315 5.5192 9.94999L5.52505 9.95H7.00005L7.00005 11.425C7.00005 12.2396 6.33967 12.9 5.52505 12.9C4.71043 12.9 4.05005 12.2396 4.05005 11.425ZM8.00005 7.47206C8.00164 6.65879 8.66141 6 9.47505 6C10.2897 6 10.95 6.66038 10.95 7.475C10.95 8.28962 10.2897 8.95 9.47505 8.95C8.66141 8.95 8.00164 8.29121 8.00005 7.47794V7.47206Z"
+                      fill="#b9b9c9"
+                    />
                   </svg>
                 </a>
               )}
