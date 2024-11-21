@@ -128,7 +128,7 @@ export default function MyProjects() {
       designSpec:
         "https://www.figma.com/design/j9QIHvgM0wOVw3xDe9KdWB/My-Copy%3A-Cohort-Manager-app---Designs",
       liveLink: "https://main.d2q5tbadmopx4b.amplifyapp.com/login",
-      gitLink: "https://github.com/boolean-uk/team-dev-client-c13",
+      gitLink: "https://github.com/zainabch123/team-dev-server-c13",
     },
     {
       id: 3,
