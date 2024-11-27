@@ -10,7 +10,7 @@ export default function AboutMe() {
           <p>
             Hi, I'm Zainab! I am a full-stack developer and recent graduate of
             an intensive 6-month Software Development Bootcamp. Formerly a
-            history teacher, my journey into coding began when I stumbled upon some free courses online which sparked my
+            history teacher, my journey into coding began when I discovered free online courses which sparked my
             curiosity. I quickly became captivated by the problem-solving
             aspects and the creativity coding offered. Driven by the challenge
             and the desire for continuous learning, I took the plunge and
