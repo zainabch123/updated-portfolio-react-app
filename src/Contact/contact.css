@@ -50,6 +50,12 @@
   cursor: pointer;
 }
 
+.contact-me-links svg:hover {
+  stroke: #9f9fad;
+  fill: #9f9fad;
+  cursor: pointer;
+}
+
 .contact-section form {
   display: flex;
   flex-direction: column;
