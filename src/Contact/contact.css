@@ -1,14 +1,12 @@
-
 .contact-section {
   text-align: center;
   background-color: rgb(245, 244, 244, 0.5);
-  padding: 30px 0px ;
+  padding: 30px 0px;
   justify-items: center;
-
 }
 
 .contact-section .title {
-  margin-top: 80px
+  margin-top: 80px;
 }
 
 .contact-me-links {
@@ -18,20 +16,32 @@
 }
 
 .contact-me-links a {
-   text-decoration: none;
-   
+  text-decoration: none;
 }
 
-.linkedIn a, .email, .gitHub a {
+.linkedIn a,
+.email,
+.gitHub a {
   display: grid;
   align-items: center;
   padding: 0px 10px;
 }
 
-.contact-me-links h4 {
-  grid-column: 2 / span 1;
-  padding: 0px 10px;
-  color: black;
+.email {
+  position: relative;
+}
+
+.email-content {
+  position: absolute;
+  padding: 12px;
+  border-radius: 12px;
+  top: -50px;
+  left: -100px;
+  background-color: black;
+}
+
+.email-content h4 {
+  color: white;
 }
 
 .contact-me-links svg {
@@ -39,8 +49,6 @@
   fill: #b9b9c9;
   cursor: pointer;
 }
-
-
 
 .contact-section form {
   display: flex;
@@ -51,7 +59,6 @@
   gap: 15px;
   margin-top: 30px;
   justify-items: center;
-  
 }
 
 .contact-section input,
@@ -61,19 +68,17 @@
   padding: 15px;
   font-size: 1rem;
   border: none;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-section button {
-   height: 40px;
+  height: 40px;
   border-radius: 20px;
   padding: 10px;
   font-size: 1rem;
   border: none;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-
 
 .contact-section button {
   cursor: pointer;
@@ -87,4 +92,3 @@
   background-color: black;
   color: white;
 }
-

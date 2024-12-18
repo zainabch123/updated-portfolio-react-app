@@ -5,7 +5,7 @@
   display: grid;
   grid-template-rows: 1fr;
   text-align: start;
-  background-color: #E6E6FA;
+  background-color: #e6e6fa;
   padding: 15px 0;
 }
 
@@ -20,7 +20,8 @@
 }
 
 #nav-name {
-  color: black;
+  color: #424242;
+
   padding: 10px;
   padding-left: 20px;
   text-decoration: none;
@@ -45,11 +46,9 @@
 .nav-links * {
   padding: 10px 10px;
   text-decoration: none;
-  color: black;
-
+  color: #424242;
 }
 .nav-links *:hover {
   background-color: rgba(175, 175, 175, 0.25);
   border-radius: 15px;
 }
-

@@ -6,7 +6,6 @@ import Skills from "./Skills/Skills";
 import NavBar from "./Nav-Bar/NavBar";
 
 
-
 function App() {
   const scrollableRef = useRef(null);
 
