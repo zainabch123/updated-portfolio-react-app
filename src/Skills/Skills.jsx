@@ -9,7 +9,7 @@ export default function Skills() {
           Here are some of the skills I have developed.
         </p>
       </div>
-      <section className="skills-grid animated-section">
+      <section className="skills-grid">
         <div className="skill-card animated-section">
           <div className="skill-svg">
             <svg

@@ -69,7 +69,7 @@ export default function Contact() {
           </svg>
 
           {isVisible && (
-            <div className="email-content">
+            <div className="email-content animated-section">
               <h4>zainabchoudhry05@gmail.com</h4>
             </div>
           )}

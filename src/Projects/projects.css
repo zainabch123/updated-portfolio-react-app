@@ -24,7 +24,7 @@
   position: relative;
   width: 100%;
   max-width: 370px;
-  height: 400px;
+  height: 420px;
   margin-top: 40px;
   display: grid;
   grid-template-rows: 2fr 1fr;
@@ -68,12 +68,13 @@
 } */
 
 .project-text {
-  padding: 30px 30px 30px 30px;
+  padding: 30px;
   text-align: start;
 }
 
 .project-text h3 {
   color: black;
+  font-weight: 500;
 }
 .project-text p {
   font-size: 1rem;
@@ -88,7 +89,7 @@
 }
 
 span {
-  font-weight: 700;
+  font-weight: 500;
   color: black;
 }
 
@@ -101,12 +102,28 @@ span {
   height: 100vh;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(6px);
   overflow-y: scroll;
   display: flex;
   justify-content: center;  
 }
-
+@keyframes fadeInUpBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-10px); /* Overshoot */
+  }
+  80% {
+    transform: translateY(5px); /* Small rebound */
+  }
+  100% {
+     opacity: 1;
+    transform: translateY(0px); /* Settle into place */
+  }
+}
 .overlay-card {
   width: 100%;
   max-width: 800px;
@@ -116,11 +133,10 @@ span {
   background: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   cursor: auto;
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeInUp 0.5s ease-out forwards;
+  animation: fadeInUpBounce 0.4s forwards ease-in-out; 
   }
 
+  
 
 .close-modal {
   position: absolute;

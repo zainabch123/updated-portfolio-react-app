@@ -3,28 +3,24 @@ import "./aboutMe.css";
 
 export default function AboutMe() {
   return (
-    <section className="about-section animated-section" id="about-section">
-      <div className="about-elements">
+    <section className="about-section " id="about-section">
+      <div className="about-elements animated-section">
         <div className="about-me-text box1">
           <h2>About Me</h2>
           <p>
-            Hi, I'm Zainab! I am a full-stack developer and recent graduate of
-            an intensive 6-month Software Development Bootcamp. Formerly a
-            history teacher, my journey into coding began when I discovered free online courses which sparked my
-            curiosity. I quickly became captivated by the problem-solving
-            aspects and the creativity coding offered. Driven by the challenge
-            and the desire for continuous learning, I took the plunge and
-            enrolled in a coding bootcamp.
+            Hi, I'm Zainab! I am a full-stack developer and recent graduate of an intensive 6-month Software Development Bootcamp. Formerly a
+            history teacher, my journey into coding started out of curiosity and quickly evolved into a genuine passion. The problem-solving and
+            creative possibilities of coding captivated me, inspiring me to take the leap and enroll in a bootcamp
           </p>
         </div>
         <div className="about-me-text box2">
           <p>
-            Now a full-stack developer with over 900 hours of hands-on training
-            in modern, industry-relevant technologies, I bring a passion for
-            design, optimized code, and a drive to build effective, impactful
-            applications. My background in teaching has equipped me with strong
-            interpersonal, critical thinking, and team-building skills, which
-            I'm excited to apply in a career in software development.
+            As a full-stack developer with over 900 hours of hands-on experience
+            in modern, industry-relevant tech, I am passionate about design,
+            writing clean code, and creating efficient, impactful applications.
+            My teaching background has equipped me with strong interpersonal,
+            critical thinking, and teamwork skills, which I am also excited to
+            leverage in my software development career.
           </p>
           <div className="social-links">
             <a href="https://www.linkedin.com/in/zainab-choudhry-244005189/">
