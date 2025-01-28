@@ -164,6 +164,10 @@ p {
   .about-section, .projects-section, .skills-section, .contact-section {
     padding: 15px 0px;
   }
+
+  .about-elements, .projects-section .title, .skills-section .title {
+    margin-top: 80px;
+  }
 }
 
 @font-face {
