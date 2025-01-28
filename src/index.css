@@ -151,6 +151,10 @@ p {
   .nav-buttons  {
     padding: 0px;
   }
+  
+  .project-container {
+    height: 440px;
+  }
 }
 
 @font-face {
