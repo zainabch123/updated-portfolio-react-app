@@ -141,11 +141,15 @@ p {
 
 @media (max-width: 580px) {
   .title-section {
-    flex: 0 0 50vh;
+    flex: 0 0 60vh;
   }
 
   .title-section h1 {
     font-size: 4rem;
+  }
+
+  .nav-buttons  {
+    padding: 0px;
   }
 }
 
