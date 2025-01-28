@@ -152,6 +152,10 @@ p {
     padding: 0px;
   }
   
+  #nav-name {
+    padding-left: 5px;
+  }
+  
   .project-container {
     height: 440px;
   }
