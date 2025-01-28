@@ -116,8 +116,6 @@ export default function MyProjects() {
       image: CohortDashboardImg,
       techStack: [
         "React",
-        "HTML",
-        "CSS",
         "NodeJS",
         "Express",
         "PostgreSQL",

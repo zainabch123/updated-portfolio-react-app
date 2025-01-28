@@ -5,12 +5,17 @@
   justify-items: center;
 }
 
+.contact-section-contact-wrapper {
+  margin: 0 auto;
+}
+
 .contact-section .title {
   margin-top: 80px;
 }
 
 .contact-me-links {
   display: flex;
+  justify-content: center;
   align-content: center;
 }
 

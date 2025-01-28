@@ -39,6 +39,7 @@ export default function Contact() {
 
   return (
     <section className="contact-section  animated-section" id="contact-section">
+      <div className='contact-section-content-wrapper'>
       <h2 className="title animated-section">Get in touch</h2>
       <p className="animated-section">
         Feel free to reach out if you have any questions or would like to
@@ -87,6 +88,7 @@ export default function Contact() {
             </svg>
           </a>
         </div>
+      </div>
       </div>
       <form
         ref={formRef}
