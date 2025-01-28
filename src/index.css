@@ -152,9 +152,9 @@ p {
     padding: 0px;
   }
   
-  .nav-links {
-    padding: 5px;
-  }
+ .nav-links * {
+  padding: 10px 5px;
+}
 
   .project-container {
     height: 440px;
