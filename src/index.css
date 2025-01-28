@@ -160,6 +160,10 @@ p {
   .project-container {
     height: 440px;
   }
+
+  .about-section, .projects-section, .skills-section, .contact-section {
+    padding: 20px 0px;
+  }
 }
 
 @font-face {
