@@ -14,7 +14,7 @@ export default function MyProjects() {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      name: "Travel Planner App",
+      name: "Trip Planner App",
       briefDescr:
         "A full-stack app, built for my final 3-week projects, where users can search hotels, activities, and attractions and and plan itineraries for upcoming trips.",
       detailedDesc: (
