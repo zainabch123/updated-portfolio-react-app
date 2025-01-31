@@ -106,7 +106,7 @@
 @media (max-width: 455px) {
   .about-me-text {
     width: 320px;
-    height: 365px;
+    height: 380px;
     padding: 30px;
   }
   .about-me-text h2 {
@@ -116,7 +116,7 @@
   .about-me-text p {
     font-size: 0.9rem;
   }
-  .about-me-text {
+  .about-me-image {
     width: 320px;
     height: 365px;
   }
