@@ -202,6 +202,11 @@ span {
   margin-left: 10px;
 }
 
-@media (max-width: 880px) {}
+@media (max-width: 880px) {
+
+   .project-title-section h2 {
+    font-size: 2rem;
+  }
+}
 
 @media (max-width: 455px) {}
