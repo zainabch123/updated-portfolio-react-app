@@ -166,7 +166,7 @@ p {
 
 @media (max-width: 545px) {
   .title-section {
-    flex: 0 0 60vh;
+    flex: 0 0 65vh;
     padding: 20px 20px 0px 20px;
   }
   .title-section h1 {
