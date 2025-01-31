@@ -6,7 +6,6 @@
   margin: 0 auto;
 }
 
-
 .projects-section .title {
   margin-top: 120px;
 }
@@ -194,28 +193,31 @@ span {
 }
 
 @media (max-width: 880px) {
-  .project-title-section h2, .overlay-text h2 {
+  .project-title-section h2,
+  .overlay-text h2 {
     font-size: 2rem;
   }
 
-  .project-title-section p{
+  .project-title-section p {
     font-size: 1.1rem;
   }
 
-  .project-text p, .overlay-text p, .selected-project-descr li {
+  .project-text p,
+  .overlay-text p,
+  .selected-project-descr li {
     font-size: 0.95rem;
   }
 
   .project-container {
-  width: 340px;
+    width: 340px;
     height: 420px;
-  margin-top: 40px;
-  text-align: center;
-  align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
   }
 
   .project-text {
-    padding: 20px
+    padding: 20px;
   }
 
   .project-links {
@@ -224,60 +226,70 @@ span {
 
   .overlay-card {
     width: 100%;
-  max-width: 600px;
-  height: fit-content;
+    max-width: 600px;
+    height: fit-content;
   }
   .overlay-links {
     font-size: 1rem;
   }
 }
 
-@media(max-width:660px) {
+@media (max-width: 660px) {
   .overlay-card {
     width: 100%;
-  max-width: 500px;
-  height: fit-content;
+    max-width: 500px;
+    height: fit-content;
   }
 
   .overlay-text {
-  padding: 25px 25px 0px 25px;
-  justify-items: start;
-}
+    padding: 25px 25px 0px 25px;
+    justify-items: start;
+  }
 }
 
 @media (max-width: 455px) {
-  .project-title-section h2  {
+  .project-title-section h2 {
     font-size: 1.8rem;
   }
+  .project-title-section p {
+    font-size:  1.1rem;
+  }
+
+  .project-container {
+    width: 340px;
+    height: 400px;
+   
+  }
+ 
 
   .overlay-text h2 {
     font-size: 1.6rem;
   }
-  .project-title-section p,{
-    font-size: 1rem;
-  }
-  .project-text p, .overlay-links {
+  
+  .project-text p,
+  .overlay-links {
     font-size: 0.9rem;
   }
-  .overlay-text p, .selected-project-descr li {
+  .overlay-text p,
+  .selected-project-descr li {
     font-size: 0.85rem;
   }
-   .overlay-card {
+  .overlay-card {
     width: 100%;
-  max-width: 400px;
-  height: fit-content;
-  margin: 0 auto;
+    max-width: 400px;
+    height: fit-content;
   }
 
   .overlay-text {
-  padding: 20px 20px 0px 20px;
-  text-align: start;
-  justify-items: start;
-}
+    padding: 20px 20px 0px 20px;
+    text-align: start;
+    justify-items: start;
+  }
 
-.project-links {
-  padding: 5px;
-}
-}
+  .project-links {
+    padding: 5px;
+  }
 
 
+
+}
