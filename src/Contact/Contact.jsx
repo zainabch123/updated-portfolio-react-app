@@ -46,7 +46,7 @@ export default function Contact() {
         discuss a project.
       </p>
       <div className="contact-me-links animated-section">
-        <div className="linkedIn animated-section">
+        <div className="linkedIn">
           <a href="https://www.linkedin.com/in/zainab-choudhry-244005189/">
             <svg
               strokeWidth="0"
@@ -59,7 +59,7 @@ export default function Contact() {
             </svg>
           </a>
         </div>
-        <div className="email animated-section" onClick={handleOnClickEmail}>
+        <div className="email " onClick={handleOnClickEmail}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -75,7 +75,7 @@ export default function Contact() {
             </div>
           )}
         </div>
-        <div className="gitHub animated-section">
+        <div className="gitHub ">
           <a href="https://github.com/zainabch123">
             <svg
               strokeWidth="0"

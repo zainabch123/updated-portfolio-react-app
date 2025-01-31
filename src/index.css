@@ -139,14 +139,14 @@ p {
   margin: 0 auto;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 880px) {
   .title-section {
     flex: 0 0 60vh;
     padding: 0px 20px;
   }
 
   .title-section h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .nav-buttons  {
@@ -166,9 +166,32 @@ p {
   }
 
   .about-elements, .projects-section .title, .skills-section .title {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 }
+
+@media(max-width: 700px) {
+  .title-section h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 545px) {
+ .title-section {
+    flex: 0 0 40vh;
+    padding: 0px 20px;
+  }
+
+  .title-section h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width:455px) {
+  .title-section h1 {
+    font-size: 2.5rem;
+  }
+} 
 
 @font-face {
   font-family: "Geist";

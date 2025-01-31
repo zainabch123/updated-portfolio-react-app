@@ -4,20 +4,22 @@ import "./aboutMe.css";
 export default function AboutMe() {
   return (
     <section className="about-section " id="about-section">
-      <div className="about-elements animated-section">
-        <div className="about-me-text box1">
+      <div className="about-elements">
+        <div className="about-me-text box1 animated-section">
           <h2>About Me</h2>
           <p>
-            Hi, I'm Zainab! I am a full-stack developer and recent graduate of an intensive 6-month Software Development Bootcamp. Formerly a
-            history teacher, my journey into coding started out of curiosity and quickly evolved into a genuine passion. The problem-solving and
-            creative possibilities of coding captivated me, inspiring me to take the leap and enroll in a bootcamp
+            Hi, I'm Zainab! I am a full-stack developer and recent graduate of
+            an intensive 6-month Software Development Bootcamp. Formerly a
+            history teacher, my journey into coding started out of curiosity and
+            quickly evolved into a genuine passion. The problem-solving and
+            creative possibilities of coding captivated me, inspiring me to take
+            the leap and enroll in a bootcamp
           </p>
         </div>
-        <div className="about-me-text box2">
+        <div className="about-me-text box2 animated-section">
           <p>
-            As a full-stack developer with over 900 hours of hands-on experience
-            in modern, industry-relevant tech, I am passionate about design,
-            writing clean code, and creating efficient, impactful applications.
+            As a full-stack developer with over 900 hours of experience
+            in modern, industry-relevant tech, I am passionate about responsive UI's, clean code, and creating efficient, impactful applications.
             My teaching background has equipped me with strong interpersonal,
             critical thinking, and teamwork skills, which I am also excited to
             leverage in my software development career.
@@ -47,7 +49,7 @@ export default function AboutMe() {
             </a>
           </div>
         </div>
-        <div className="about-me-image">
+        <div className="about-me-image animated-section">
           <img src={ProfileImg} alt="ProfileImg" />
         </div>
       </div>
