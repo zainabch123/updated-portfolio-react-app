@@ -82,7 +82,7 @@
 @media (max-width: 880px) {
   .about-me-text {
     width: 350px;
-    height: 380px;
+    height: 395px;
   }
 
   .about-me-text h2 {
@@ -104,8 +104,7 @@
 }
 
 @media (max-width: 455px) {
-  .about-me-text,
-  .about-me-image {
+  .about-me-text {
     width: 320px;
     height: 365px;
     padding: 30px;
@@ -116,5 +115,9 @@
 
   .about-me-text p {
     font-size: 0.9rem;
+  }
+  .about-me-text {
+    width: 320px;
+    height: 365px;
   }
 }
