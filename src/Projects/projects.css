@@ -208,7 +208,7 @@ span {
     font-size: 2rem;
   }
 
-  .project-tag-line p {
+  .project-tag-line {
     font-size: 1.1rem;
   }
 
@@ -261,6 +261,11 @@ span {
   .project-title-section h2 {
     font-size: 1.8rem;
   }
+
+   .projects-tag-line {
+    font-size: 1.1rem;
+  }
+
 
   .project-container {
     width: 340px;

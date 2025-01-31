@@ -124,3 +124,12 @@
     padding-bottom: 20px;
   }
 }
+
+
+@media (max-width: 455px) {
+  .contact-section .title {
+    font-size: 1.8rem;
+  }
+
+  
+}
