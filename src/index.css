@@ -189,10 +189,7 @@ p {
 }
 
 @media (max-width: 545px) {
-  .title-section {
-    flex: 0 0 60vh;
-    padding: 0px 20px;
-  }
+ 
   
   .title-section h1 {
     font-size: 3rem;
