@@ -13,6 +13,11 @@
   margin-top: 80px;
 }
 
+.contact-tag-line {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
 .contact-me-links {
   display: flex;
   justify-content: center;
@@ -102,4 +107,14 @@
 .contact-section button:hover {
   background-color: black;
   color: white;
+}
+
+@media (max-width: 880px) {
+  .contact-section .title {
+    font-size: 2rem;
+  }
+  .contact-tag-line {
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+  }
 }

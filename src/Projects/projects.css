@@ -10,6 +10,11 @@
   margin-top: 120px;
 }
 
+.projects-tag-line {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
 .project-links {
   display: flex;
   flex-wrap: wrap;
@@ -198,7 +203,7 @@ span {
     font-size: 2rem;
   }
 
-  .project-title-section p {
+  .project-tag-line p {
     font-size: 1.1rem;
   }
 
@@ -252,18 +257,15 @@ span {
     font-size: 1.8rem;
   }
 
-
   .project-container {
     width: 340px;
     height: 400px;
-   
   }
- 
 
   .overlay-text h2 {
     font-size: 1.6rem;
   }
-  
+
   .project-text p,
   .overlay-links {
     font-size: 0.9rem;
@@ -287,7 +289,4 @@ span {
   .project-links {
     padding: 5px;
   }
-
-
-
 }

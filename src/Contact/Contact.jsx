@@ -41,7 +41,7 @@ export default function Contact() {
     <section className="contact-section  animated-section" id="contact-section">
       <div className='contact-section-content-wrapper'>
       <h2 className="title animated-section">Get in touch</h2>
-      <p className="animated-section">
+      <p className="contact-tag-line animated-section">
         Feel free to reach out if you have any questions or would like to
         discuss a project.
       </p>

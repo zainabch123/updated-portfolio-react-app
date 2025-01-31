@@ -89,16 +89,9 @@ p {
   font-weight: 400;
 }
 
-.title-section p,
-.projects-tag-line,
-.skills-tag-line,
-.contact-section p {
+.title-section p {
   font-size: 1.3rem;
   padding-bottom: 10px;
-}
-
-.contact-section p {
-  padding-top: 10px;
 }
 
 .animated-section {
@@ -151,13 +144,11 @@ p {
     font-size: 1.1rem;
   }
 
-
-
   .about-section,
   .projects-section,
   .skills-section,
   .contact-section {
-    padding: 15px ;
+    padding: 15px;
   }
 
   .about-elements,
