@@ -95,7 +95,7 @@
 
   .about-me-image {
     width: 350px;
-    height: 380px;
+    height: 395px;
   }
 
   .social-links {
@@ -107,9 +107,8 @@
   .about-me-text,
   .about-me-image {
     width: 320px;
-    height: 355px;
-      padding: 30px;
-
+    height: 365px;
+    padding: 30px;
   }
   .about-me-text h2 {
     font-size: 1.8rem;
