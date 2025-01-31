@@ -190,7 +190,10 @@ p {
 
 @media (max-width: 545px) {
  
-  
+  .title-section {
+    flex: 0 0 65vh;
+    padding: 0px 20px;
+  }
   .title-section h1 {
     font-size: 3rem;
   }
@@ -198,13 +201,13 @@ p {
   .about-elements,
   .projects-section .title,
   .skills-section .title {
-    margin-top: 80px;
+    margin-top: 70px;
   }
 }
 
 @media (max-width: 455px) {
   .title-section h1 {
-    font-size: 3rem;
+    font-size: 2.65rem;
   }
 }
 
