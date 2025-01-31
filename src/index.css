@@ -91,13 +91,12 @@ p {
 
 .title-section p,
 .projects-tag-line,
-.skills-section p,
+.skills-tag-line,
 .contact-section p {
   font-size: 1.3rem;
   padding-bottom: 10px;
 }
 
-.skills-section p,
 .contact-section p {
   padding-top: 10px;
 }

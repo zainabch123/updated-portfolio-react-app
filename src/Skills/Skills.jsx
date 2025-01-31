@@ -5,7 +5,7 @@ export default function Skills() {
     <section className="skills-section" id="skills-section">
       <div className="project-title-section animated-section">
         <h2 className="title">My Skills</h2>
-        <p>
+        <p className="skills-tag-line">
           Here are some of the skills I have developed.
         </p>
       </div>
