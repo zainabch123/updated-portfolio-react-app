@@ -104,10 +104,15 @@
 }
 
 @media (max-width: 455px) {
+
+  .box1, .box2 {
+    align-content: center;
+    padding: 30px
+  }
   .about-me-text {
     width: 320px;
-    height: 360px;
-    padding: 30px;
+    height: 385px;
+  
   }
   .about-me-text h2 {
     font-size: 1.8rem;
@@ -118,6 +123,6 @@
   }
   .about-me-image {
     width: 320px;
-    height: 365px;
+    height: 385px;
   }
 }
