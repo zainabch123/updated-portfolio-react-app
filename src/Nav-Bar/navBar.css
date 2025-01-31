@@ -53,9 +53,7 @@
   border-radius: 15px;
 }
 
-
-@media(max-width:880px) {
-
+@media (max-width: 880px) {
   .nav-buttons {
     padding: 0px;
   }
@@ -64,17 +62,16 @@
     padding: 10px 5px;
   }
 }
- 
-@media (max-width: 455px) {
 
+@media (max-width: 455px) {
   .navigation-bar {
-    padding: 10px 0px;
+    padding: 10px 0px 5px 0px;
   }
 
-  #nav-name{
+  #nav-name {
     font-size: 1.1rem;
   }
-.nav-links {
-  font-size: 1rem;
-}
+  .nav-links {
+    font-size: 1rem;
+  }
 }
