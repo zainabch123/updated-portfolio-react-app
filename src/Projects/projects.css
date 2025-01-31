@@ -262,6 +262,9 @@ span {
     height: 400px;
   }
 
+  .overlay {
+    padding: 1.5rem;
+  }
   .overlay-text h2 {
     font-size: 1.6rem;
   }
