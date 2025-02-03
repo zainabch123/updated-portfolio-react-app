@@ -153,6 +153,10 @@ font-size: 5rem;
   .title-section h1 {
     font-size: 3.4rem;
   }
+
+  .title-section p {
+    font-size: 1.1rem;
+  }
 }
 
 
@@ -180,58 +184,7 @@ font-size: 5rem;
     margin-top: 80px;
   }
 }
-/* @media (max-width: 880px) {
-  .title-section {
-    flex: 0 0 70vh;
-    padding: 40px 20px 0px 20px;
-  }
 
-  .title-section h1 {
-    font-size: 5rem;
-  }
-
-  .title-section p {
-    font-size: 1.1rem;
-  }
-
-  .about-section,
-  .projects-section,
-  .skills-section,
-  .contact-section {
-    padding: 15px;
-  }
-
-  .about-elements,
-  .projects-section .title,
-  .skills-section .title {
-    margin-top: 90px;
-  }
-}
-
-@media (max-width: 700px) {
-  .title-section h1 {
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 545px) {
-  .title-section {
-    flex: 0 0 65vh;
-    padding: 15px 15px 0px 15px;
-  }
-  .title-section h1 {
-    font-size: 3.3rem;
-  }
-
-  .title-section button {
-    margin-top: 15px;
-  }
-  .about-elements,
-  .projects-section .title,
-  .skills-section .title {
-    margin-top: 70px;
-  }
-} */
 
 
 @font-face {

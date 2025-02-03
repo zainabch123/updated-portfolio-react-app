@@ -302,4 +302,11 @@ span {
   .project-links {
     padding: 5px;
   }
+
+  .close-modal {
+  position: absolute;
+  top: -15px;
+  right: 12px;
+  font-size: 1rem;
+}
 }
