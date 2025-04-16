@@ -13,7 +13,7 @@ export default function AboutMe() {
             history teacher, my journey into coding started out of curiosity and
             quickly evolved into a genuine passion. The problem-solving and
             creative possibilities of coding captivated me, inspiring me to take
-            the leap and enroll in a bootcamp
+            the leap and enroll in a bootcamp.
           </p>
         </div>
         <div className="about-me-text box2 animated-section">
